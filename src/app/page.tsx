@@ -2,111 +2,149 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="text-cw0">
+      <div className=''>
+        <div className='px-[var(--mobile-wrapper)] text-cw0 h-[60px] flex justify-between'>
+          <div className='flex justify-center items-center'>
+            <Image src= '/assets/logo.svg' width={98} height={25} alt='devxio logo'/>
+          </div>
+          <div className='flex justify-center items-center'>
+            <div className='p-1'><Image src= '/assets/fb.png' width={30} height={30} alt='facebook'/></div>
+            <div className='p-1'><Image src= '/assets/twt.png' width={30} height={30} alt='twitter'/></div>
+            <div className='p-1'><Image src= '/assets/in.png' width={30} height={30} alt='linkedin'/></div>
+            <div className='p-1'><Image src= '/assets/github.png' width={30} height={30} alt='github'/></div>
+          </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div className='px-[var(--mobile-wrapper)] pt-14 relative mb-16'>
+          <h1 className='text-center [font-size:15vw] font-black tracking-tight leading-none'>
+            <span>Muhammad </span>
+            <span>Asadullah</span>
+          </h1>
+          <div className='w-[calc(100%-var(--mobile-wrapper)*2)] aspect-[0.611] himg absolute [z-index:-1]'>
+          </div>
+          <div className='text-center w-full mt-[280px]'>
+            <a role='button' href='/asadullah/cv' className='font-semibold border-[1px] rounded-md p-1 px-10'>
+              VIEW CV
+            </a>
+            <h1 className='pt-6 text-center [font-size:13vw] font-black tracking-tight leading-none'>
+              <span className='tracking-wider'>Full Stack </span>
+              <span className='tracking-wide'>Developer</span>
+            </h1>
+            <h2 className='pt-6 text-center text-base tracking-normal text-cw1 font-semibold tracking-tight leading-normal w-5/6 mx-[auto]'>
+              Design, Development, and Marketing coverage in one skilled professional.
+            </h2>
+          </div>
+        </div>
+        <div className='px-[var(--mobile-wrapper)] mb-16'>
+          <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal'>
+            SKILLS
+          </h3>
+          <div className='flex justify-between flex-wrap'>
+            <img src='/assets/skill(1).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(2).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(3).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(4).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(5).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(6).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(7).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(8).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(9).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(10).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(11).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(12).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(13).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(14).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(15).png' alt='skill logo' className='h-[30px] m-3'/>
+          </div>
+        </div>
+        <div className='px-[var(--mobile-wrapper)] mb-16'>
+          <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
+            EXPERIENCE
+          </h3>
+          <div className='rounded-md bg-cd1 p-4 text-center '>
+            <div className='w-4/5 aspect-square mx-[auto] my-8 relative'>
+              <svg className='inline' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 202">
+                <path id="Polygon_1" data-name="Polygon 1" d="M122.982,3.792a5,5,0,0,1,7.584,2.032L139.926,27.6a5,5,0,0,0,5.18,2.991l23.535-2.781a5,
+                5,0,0,1,5.552,5.552l-2.781,23.535a5,5,0,0,0,2.991,5.18l21.772,9.359a5,5,0,0,1,2.032,7.584L184.032,98.009a5,5,0,0,0,0,5.982l14.175,
+                18.992a5,5,0,0,1-2.032,7.584L174.4,139.926a5,5,0,0,0-2.991,5.18l2.781,23.535a5,5,0,0,1-5.552,5.552l-23.535-2.781a5,5,0,0,0-5.18,
+                2.991l-9.359,21.772a5,5,0,0,1-7.584,2.032l-18.992-14.175a5,5,0,0,0-5.982,0L79.018,198.208a5,5,0,0,1-7.584-2.032L62.074,174.4a5,
+                5,0,0,0-5.18-2.991l-23.535,2.781a5,5,0,0,1-5.552-5.552l2.781-23.535a5,5,0,0,0-2.991-5.18L5.824,130.567a5,5,0,0,
+                1-2.032-7.584l14.175-18.992a5,5,0,0,0,0-5.982L3.792,79.018a5,5,0,0,1,2.032-7.584L27.6,62.074a5,5,0,0,0,2.991-5.18L27.807,
+                33.359a5,5,0,0,1,5.552-5.552l23.535,2.781a5,5,0,0,0,5.18-2.991L71.433,5.824a5,5,0,0,1,7.584-2.032L98.009,17.968a5,5,0,0,0,5.982,0Z" 
+                fill="#ffffff" opacity="1" />
+              </svg>
+              <h4 className='absolute top-0 left-0 w-full h-full flex justify-center items-center text-cd0 px-10 font-extrabold text-2xl'>
+                2+ Years Since on GitHub
+              </h4>
+            </div>
+            <h4 className='p-3 my-4 rounded-md bg-cd2'>
+              2+ Years web development Experience
+            </h4>
+            <h4 className='p-3 my-4 rounded-md bg-cd2'>
+              3+ Years of Design Experience
+            </h4>
+            <h4 className='p-3 my-4 rounded-md bg-cd2'>
+              5 Years of Experience in the field
+            </h4>
+          </div>
+        </div>
+        <div className='px-[var(--mobile-wrapper)] mb-16'>
+          <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
+            WHAT I'VE DONE SO FAR
+          </h3>
+          <div className=''>
+            <img src='/assets/fa.jpg' alt='focus academy website screenshot' className='w-full top-bdr'/>
+            <div className=' bottom-bdr bg-cd1 py-6'>
+              <p className='w-2/3 mx-[auto] text-center '>
+                Designed and developed Focus Academy Website
+              </p>
+              <div className='flex justify-center items-center'>
+                <a href='https://github.com/JoinAsadullah/focusacademy' target='_blank'><img src='/assets/github.png' alt='github repo' className='h-[30px] m-3'/></a>
+                <a href='https://joinasadullah.github.io/focusacademy/' target='_blank'><img src='/assets/rd.png' alt='redirect url' className='h-[30px] m-3'/></a>
+              </div>
+            </div>
+          </div>
+          <div className='mt-4'>
+            <img src='/assets/bk.jpg' alt='focus academy website screenshot' className='w-full top-bdr'/>
+            <div className=' bottom-bdr bg-cd1 py-6'>
+              <p className='w-2/3 mx-[auto] text-center '>
+                Re developed the Front end of entire Bika Construction website
+              </p>
+              <div className='flex justify-center items-center'>
+                <a href='https://github.com/JoinAsadullah/bika' target='_blank'><img src='/assets/github.png' alt='github repo' className='h-[30px] m-3'/></a>
+                <a href='https://joinasadullah.github.io/bika/' target='_blank'><img src='/assets/rd.png' alt='redirect url' className='h-[30px] m-3'/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='px-[var(--mobile-wrapper)] mb-16'>
+          <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
+            SERVICES
+          </h3>
+          <div className='text-center'>
+            <h2 className='w-3/4 mx-auto mt-2 font-bold'>
+             website design and development
+            </h2>
+            <img src='/assets/webpg.png' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <p className='w-4/5 mx-auto mt-2'>
+             Integrated web application and information system development.
+            </p>
+          </div>
+          <div className='text-center mt-6'>
+            <h2 className='w-2/4 mx-auto mt-2 font-bold'>
+              Digital Marketing
+            </h2>
+            <img src='/assets/mrk.png' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <p className='w-4/5 mx-auto mt-2'>
+              Email Marketing, SEO, Socail Media Marketing
+            </p>
+          </div>
+        </div>
+        <div className='px-[var(--mobile-wrapper)] mb-16'>
+          <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
+            CONTACT US
+          </h3>
+        </div>
       </div>
     </main>
   )
