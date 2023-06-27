@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div className='px-[var(--mobile-wrapper)] mb-16'>
           <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
-            WHAT I'VE DONE SO FAR
+            WHAT I&#39;VE DONE SO FAR
           </h3>
           <div className=''>
             <img src='/assets/fa.jpg' alt='focus academy website screenshot' className='w-full top-bdr'/>
