@@ -9,10 +9,10 @@ export default function Home() {
             <Image src= '/assets/logo.svg' width={98} height={25} alt='devxio logo'/>
           </div>
           <div className='flex justify-center items-center'>
-            <div className='p-1'><Image src= '/assets/fb.png' width={30} height={30} alt='facebook'/></div>
-            <div className='p-1'><Image src= '/assets/twt.png' width={30} height={30} alt='twitter'/></div>
-            <div className='p-1'><Image src= '/assets/in.png' width={30} height={30} alt='linkedin'/></div>
-            <div className='p-1'><Image src= '/assets/github.png' width={30} height={30} alt='github'/></div>
+            <div className='p-1'><Image src= '/assets/fb.webp' width={30} height={30} alt='facebook'/></div>
+            <div className='p-1'><Image src= '/assets/twt.webp' width={30} height={30} alt='twitter'/></div>
+            <div className='p-1'><Image src= '/assets/in.webp' width={30} height={30} alt='linkedin'/></div>
+            <div className='p-1'><Image src= '/assets/github.webp' width={30} height={30} alt='github'/></div>
           </div>
         </div>
         <div className='px-[var(--mobile-wrapper)] pt-14 relative mb-16'>
@@ -20,7 +20,7 @@ export default function Home() {
             <span>Muhammad </span>
             <span>Asadullah</span>
           </h1>
-          <div className='w-[calc(100%-var(--mobile-wrapper)*2)] aspect-[0.611] himg absolute [z-index:-1]'>
+          <div className='w-[calc(100%-var(--mobile-wrapper)*2)] aspect-[0.712] himg absolute [z-index:-1]'>
           </div>
           <div className='text-center w-full mt-[280px]'>
             <a role='button' href='/asadullah/cv' className='font-semibold border-[1px] rounded-md p-1 px-10'>
@@ -40,21 +40,21 @@ export default function Home() {
             SKILLS
           </h3>
           <div className='flex justify-between flex-wrap'>
-            <img src='/assets/skill(1).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(2).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(3).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(4).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(5).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(6).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(7).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(8).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(9).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(10).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(11).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(12).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(13).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(14).png' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(15).png' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(1).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(2).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(3).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(4).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(5).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(6).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(7).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(8).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(9).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(10).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(11).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(12).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(13).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(14).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(15).webp' alt='skill logo' className='h-[30px] m-3'/>
           </div>
         </div>
         <div className='px-[var(--mobile-wrapper)] mb-16'>
@@ -93,26 +93,26 @@ export default function Home() {
             WHAT I&#39;VE DONE SO FAR
           </h3>
           <div className=''>
-            <img src='/assets/fa.jpg' alt='focus academy website screenshot' className='w-full top-bdr'/>
+            <img src='/assets/fa.webp' alt='focus academy website screenshot' className='w-full top-bdr'/>
             <div className=' bottom-bdr bg-cd1 py-6'>
               <p className='w-2/3 mx-[auto] text-center '>
                 Designed and developed Focus Academy Website
               </p>
               <div className='flex justify-center items-center'>
-                <a href='https://github.com/JoinAsadullah/focusacademy' target='_blank'><img src='/assets/github.png' alt='github repo' className='h-[30px] m-3'/></a>
-                <a href='https://joinasadullah.github.io/focusacademy/' target='_blank'><img src='/assets/rd.png' alt='redirect url' className='h-[30px] m-3'/></a>
+                <a href='https://github.com/JoinAsadullah/focusacademy' target='_blank'><img src='/assets/github.webp' alt='github repo' className='h-[30px] m-3'/></a>
+                <a href='https://joinasadullah.github.io/focusacademy/' target='_blank'><img src='/assets/rd.webp' alt='redirect url' className='h-[30px] m-3'/></a>
               </div>
             </div>
           </div>
           <div className='mt-4'>
-            <img src='/assets/bk.jpg' alt='focus academy website screenshot' className='w-full top-bdr'/>
+            <img src='/assets/bk.webp' alt='focus academy website screenshot' className='w-full top-bdr'/>
             <div className=' bottom-bdr bg-cd1 py-6'>
               <p className='w-2/3 mx-[auto] text-center '>
                 Re developed the Front end of entire Bika Construction website
               </p>
               <div className='flex justify-center items-center'>
-                <a href='https://github.com/JoinAsadullah/bika' target='_blank'><img src='/assets/github.png' alt='github repo' className='h-[30px] m-3'/></a>
-                <a href='https://joinasadullah.github.io/bika/' target='_blank'><img src='/assets/rd.png' alt='redirect url' className='h-[30px] m-3'/></a>
+                <a href='https://github.com/JoinAsadullah/bika' target='_blank'><img src='/assets/github.webp' alt='github repo' className='h-[30px] m-3'/></a>
+                <a href='https://joinasadullah.github.io/bika/' target='_blank'><img src='/assets/rd.webp' alt='redirect url' className='h-[30px] m-3'/></a>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function Home() {
             <h2 className='w-3/4 mx-auto mt-2 font-bold'>
              website design and development
             </h2>
-            <img src='/assets/webpg.png' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <img src='/assets/webpg.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
             <p className='w-4/5 mx-auto mt-2'>
              Integrated web application and information system development.
             </p>
@@ -134,7 +134,7 @@ export default function Home() {
             <h2 className='w-2/4 mx-auto mt-2 font-bold'>
               Digital Marketing
             </h2>
-            <img src='/assets/mrk.png' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <img src='/assets/mrk.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
             <p className='w-4/5 mx-auto mt-2'>
               Email Marketing, SEO, Socail Media Marketing
             </p>

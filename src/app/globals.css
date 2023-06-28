@@ -38,10 +38,10 @@ body{
 }
 
 .himg{
-  background-image:linear-gradient(to bottom, #00000000,#00000000,#00000000,#000000,#000000),url('/assets/asadullahpic.png');
+  background-image:linear-gradient(to bottom, #00000000,#00000000,#00000000,#000000,#000000),url('/assets/asadullahpic.webp');
   background-size:cover;
   background-repeat:no-repeat;
-  background-position: 5px -10px;
+  background-position: 5px 0px;
 }
 .top-bdr{
   border-radius: 10px 10px 0 0;
