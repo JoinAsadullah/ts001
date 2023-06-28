@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import ContactForm from '../components/contactus.tsx';
+
 
 export default function Home() {
   return (
@@ -6,7 +8,7 @@ export default function Home() {
       <div className=''>
         <div className='px-[var(--mobile-wrapper)] text-cw0 h-[60px] flex justify-between'>
           <div className='flex justify-center items-center'>
-            <Image src= '/assets/logo.svg' width={98} height={25} alt='devxio logo'/>
+            <Image className='w-[auto]' src= '/assets/logo.svg' width={98} height={25} alt='devxio logo'/>
           </div>
           <div className='flex justify-center items-center'>
             <div className='p-1'><Image src= '/assets/fb.webp' width={30} height={30} alt='facebook'/></div>
@@ -22,7 +24,7 @@ export default function Home() {
           </h1>
           <div className='w-[calc(100%-var(--mobile-wrapper)*2)] aspect-[0.712] himg absolute [z-index:-1]'>
           </div>
-          <div className='text-center w-full mt-[280px]'>
+          <div className='text-center w-full mt-[80vw]'>
             <a role='button' href='/asadullah/cv' className='font-semibold border-[1px] rounded-md p-1 px-10'>
               VIEW CV
             </a>
@@ -73,7 +75,7 @@ export default function Home() {
                 33.359a5,5,0,0,1,5.552-5.552l23.535,2.781a5,5,0,0,0,5.18-2.991L71.433,5.824a5,5,0,0,1,7.584-2.032L98.009,17.968a5,5,0,0,0,5.982,0Z" 
                 fill="#ffffff" opacity="1" />
               </svg>
-              <h4 className='absolute top-0 left-0 w-full h-full flex justify-center items-center text-cd0 px-10 font-extrabold text-2xl'>
+              <h4 className='absolute top-0 left-0 w-full h-full flex justify-center items-center text-cd0 px-[10vw] font-extrabold text-[5vw]'>
                 2+ Years Since on GitHub
               </h4>
             </div>
@@ -144,6 +146,7 @@ export default function Home() {
           <h3 className='text-center text-sm tracking-normal text-cw1 font-bold tracking-tight leading-normal mb-4'>
             CONTACT US
           </h3>
+          <ContactForm />
         </div>
       </div>
     </main>
