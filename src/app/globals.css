@@ -23,18 +23,21 @@
   --cd2:#1E1E1E;
   --cd3:#313131;
   --cw0:#FFFFFF;
-  --cw1:#86AA9D;
+  --cw1:#888;
   --cb0:#3863C9;
   --cb1:#25B1FF;
   --mobile-wrapper:calc(700vw*0.01);
 
 }
 
-body{
-  background-color: var(--cd0);
+*{
   -webkit-tap-highlight-color: rgba(3, 1, 68, 0);
   outline: none;
   color-scheme:dark;
+}
+
+body{
+  background-color: var(--cd0);
 }
 
 .himg{
