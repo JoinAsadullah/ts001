@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ContactForm from '../../components/contactus.tsx'
+import { DevxioLogo } from './svgs.tsx'
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
       <div className=''>
         <div className='px-[var(--mobile-wrapper)] text-cw0 h-[60px] flex justify-between'>
           <div className='flex justify-center items-center'>
-            <Image className='w-[auto]' src= '/assets/logo.svg' width={98} height={25} alt='devxio logo'/>
+            <DevxioLogo/>
           </div>
           <div className='flex justify-center items-center'>
             <a href='https://www.facebook.com/joinasadullah/' target='_blank' className='p-1'><Image src= '/assets/fb.webp' width={30} height={30} alt='facebook'/></a>
