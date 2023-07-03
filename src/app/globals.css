@@ -33,26 +33,25 @@
   --font-size-10: 60px;
   --font-size-11: 72px;
 
+}
 
+html.dark:root{
+  --background:#020202;
+  --background-o8:#0202028e;
+  --foreground:#ffffff;
+  --accent8: #ededed;
+  --accent7: #c8c8c8;
+  --accent6: #999999;
+  --accent5: #888888;
+  --accent4: #666666;
+  --accent3: #444444;
+  --accent2: #333333;
+  --accent1: #111111;
 }
-@media (prefers-color-scheme: dark) {
-  :root{
-    --background:#020202;
-    --background-o8:#0202028e;
-    --foreground:#ffffff;
-    --accent8: #ededed;
-    --accent7: #c8c8c8;
-    --accent6: #999999;
-    --accent5: #888888;
-    --accent4: #666666;
-    --accent3: #444444;
-    --accent2: #333333;
-    --accent1: #111111;
-  }
-  *{
-    color-scheme:dark;
-  }
+html.dark*{
+  color-scheme:dark;
 }
+
 
 *{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -86,10 +85,8 @@ body{
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
   }
-  @media (prefers-color-scheme:dark) {
-    .bg-clip-1{
-      background-image: -webkit-linear-gradient(0deg, hsl(147, 36%, 61%) 18%, hsl(158, 88%, 45%) 42%, hsl(161, 75%, 65%) 40%);
-    }
+  html.dark .bg-clip-1{
+    background-image: -webkit-linear-gradient(0deg, hsl(147, 36%, 61%) 18%, hsl(158, 88%, 45%) 42%, hsl(161, 75%, 65%) 40%);
   }
   .comp-width{
     @apply w-full max-w-[370px] mx-[auto];
@@ -124,10 +121,8 @@ body{
   .pic-invert img{
     filter: invert();
   }
-  @media (prefers-color-scheme:dark) {
-    .pic-invert img{
-      filter: unset;
-    }
+  html.dark .pic-invert img{
+    filter: unset;
   }
   .loader {
     border: 2px solid #f3f3f3; /* Light grey */
@@ -144,5 +139,41 @@ body{
   }
   .dim-fltr{
     filter: contrast(50%);
+  }
+  .theme-btn{
+    @apply rounded-full;
+  }
+  .invrt{
+    filter: invert();
+  }
+  .radio-light{
+    background: url(/assets/light-theme.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+  }
+  .radio-system{
+    background: url(/assets/system-theme.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+  }
+  .radio-dark{
+    background: url(/assets/dark-theme.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+  }
+  .active-theme{
+    border: 3px solid #FFF;
   }
 }

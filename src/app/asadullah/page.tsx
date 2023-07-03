@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import ContactForm from './components/contactus.tsx'
-import MenuToggle from './components/MenuToggle.tsx'
+import ThemeBtn from './components/theme-btn.tsx'
 import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo } from './svgs.tsx'
+import Head from "next/head";
+
 
 
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
         <div className='mobile-wrapper h-8 flex justify-between sticky z-20 top-0 glass border-b-[1px] border-[#00000017] dark:border-[#ffffff17] '>
           <div className='w-full flex justify-between items-center'>
             <DevxioLogo/>
-            <MenuToggle/>
+            <ThemeBtn/>
           </div>
         </div>
         <div className='text-center mobile-wrapper pt-8 relative mb-16'>

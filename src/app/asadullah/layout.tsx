@@ -14,7 +14,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+
+    <html lang="en" className=''>
+      <link rel="preload" href="/assets/asadullahpic.webp"/>
+      <link rel="preload" href="/assets/theme-dark.webp"/>
+      <link rel="preload" href="/assets/theme-system.webp"/>
+      <link rel="preload" href="/assets/theme-light.webp"/>
+      <link rel="preload" href="/assets/asadullahpicw.webp"/>
+      <head>
+      <meta name="color-scheme" content="light"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
