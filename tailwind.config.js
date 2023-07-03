@@ -6,22 +6,34 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors:{
-      'cd0':'var(--cd0)',
-      'cd1':'var(--cd1)',
-      'cd2':'var(--cd2)',
-      'cd3':'var(--cd3)',
-      'cw0':'var(--cw0)',
-      'cw1':'var(--cw1)',
-      'cb0':'var(--cb0)',
-      'cb1':'var(--cb1)',
-    },
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
+    extend: {  
+      colors:{
+      'background':'var(--background)',
+      'foreground':'var(--foreground)',
+      'accent1':'var(--accent1)',
+      'accent2':'var(--accent2)',
+      'accent3':'var(--accent3)',
+      'accent4':'var(--accent4)',
+      'accent5':'var(--accent5)',
+      'accent6':'var(--accent6)',
+      'accent7':'var(--accent7)',
+      'accent8':'var(--accent8)',
       },
+      spacing:{
+        '1':'4px',
+        '2':'8px',
+        '3':'12px',
+        '4':'16px',
+        '5':'24px',
+        '6':'32px',
+        '7':'45px',
+        '8':'64px',
+        '9':'96px',
+        '10':'128px',
+        '11':'192px',
+        '12':'256px',
+      }
     },
   },
   plugins: [],
