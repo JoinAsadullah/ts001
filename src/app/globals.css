@@ -71,6 +71,16 @@ body{
     font-size: var(--font-size-9);
     text-transform: uppercase;
   }
+  .hero-heading-sm{
+    @apply text-center font-black text-foreground leading-none;
+    font-size: var(--font-size-10);
+    text-transform: uppercase;
+  }
+  .hero-heading-md{
+    @apply text-center font-black text-foreground leading-none;
+    font-size: var(--font-size-11);
+    text-transform: uppercase;
+  }
   .mobile-wrapper{
     @apply px-[5%];
   }
@@ -91,7 +101,7 @@ body{
     background-image: -webkit-linear-gradient(0deg, hsl(147, 36%, 61%) 18%, hsl(158, 88%, 45%) 42%, hsl(161, 75%, 65%) 40%);
   }
   .comp-width{
-    @apply w-full max-w-[370px] mx-[auto];
+    @apply w-full max-w-[600px] mx-[auto];
   }
   .text-v0{
     font-size: var(--font-size-1);
@@ -179,6 +189,6 @@ body{
     cursor: pointer;
   }
   .active-theme{
-    border: 3px solid #FFF;
+    border: 3px solid #fff;
   }
 }

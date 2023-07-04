@@ -1,28 +1,44 @@
-import Image from 'next/image'
+'use client'
 import ContactForm from './components/contactus.tsx'
 import ThemeBtn from './components/theme-btn.tsx'
 import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo, Badge } from './svgs.tsx'
-import Head from "next/head";
+import { useEffect, useState } from 'react';
 
 
 
 export default function Home() {
+  const [scrollAtTop, setScrollAtTop] = useState<boolean>(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      setScrollAtTop(scrollPosition === 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <main className="text-foreground">
       <div className='min-w-[330px] mx-[auto]'>
-        <div className='mobile-wrapper h-8 flex justify-between sticky z-20 top-0 glass border-b-[1px] border-[#00000017] dark:border-[#ffffff17] '>
+        <div className={`mobile-wrapper h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
           <div className='w-full flex justify-between items-center'>
             <DevxioLogo/>
             <ThemeBtn/>
           </div>
         </div>
         <div className='text-center mobile-wrapper pt-8 relative mb-16'>
-          <div className='relative aspect-[.750] comp-width mt-[-75px] relative z-[-1]
+          <div className='relative aspect-[.750] w-full max-w-[550px] mx-[auto] mt-[-75px] relative z-[-1]
             bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpicw.webp)]
             dark:bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpic.webp)]
-            bg-contain bg-no-repeat'>
+            bg-contain bg-no-repeat sm:mb-[-320px] md:mt-[-120px]'>
           </div>
-          <h1 className='hero-heading mt-[-130px] comp-width'>
+          <h1 className='hero-heading max-sm:mt-[-40%] sm:hero-heading-sm sm:py-2
+          md:hero-heading-md md:py-4'>
             <span className='bg-clip-1'>Full</span>|
             <span className='bg-clip-1'>Stack </span>
             <span className='bg-clip-1 tracking-[1.48px]'>Developer</span>
@@ -36,7 +52,7 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/JoinAsadullah/' target='_blank'> <LinkedinLogo /> </a>
             <a href='https://github.com/JoinAsadullah/' target='_blank'>     <GithubLogo />      </a>
           </div>
-          <h2 className='comp-width mt-4 text-v1 text-left'>
+          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center'>
             I&#39;m Muhammad Asadullah Full Stack Developer with design, development, and marketing expertise. Let&#39;s create exceptional websites and applications together.
           </h2>
         </div>
@@ -87,7 +103,11 @@ export default function Home() {
             WHAT I&#39;VE DONE SO FAR
           </h3>
           <div className='comp-width'>
-            <img src='/assets/fa.webp' alt='focus academy website screenshot' className='w-full top-bdr border-[10px] border-accent1'/>
+            <div className='w-full aspect-[.69] sm:aspect-square relative truncate
+            md:aspect-[1.2]
+            '>
+              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent1 object-cover top-0 jsm:aspect-[1]'/>
+            </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center'>
                 Designed and developed Focus Academy Website
@@ -99,7 +119,11 @@ export default function Home() {
             </div>
           </div>
           <div className='comp-width mt-4'>
-            <img src='/assets/bk.webp' alt='focus academy website screenshot' className='w-full top-bdr border-[6px] border-accent1'/>
+            <div className='w-full aspect-[.69] sm:aspect-square relative truncate
+            md:aspect-[1.2]
+            '>
+              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent1 object-cover mb-[-20]'/>
+            </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center'>
                 Re developed the Front end of entire Bika Construction website

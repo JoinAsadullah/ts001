@@ -52,7 +52,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <form className='comp-width px-4 pb-7 pt-7 bg-accent1 rounded-2xl mb-7 border' onSubmit={handleSubmit} >
+    <form className='comp-width px-4 pb-7 pt-7 bg-accent1 rounded-2xl mb-7 border sm:px-6' onSubmit={handleSubmit} >
       <p className={`block w-full rounded-md text-xs pl-2 font-semibold text-[var(--blue-btn)] ${message==1 ? '': 'hidden'}`}>Form submitted successfully &#10003;</p>
       <p className={`block w-full rounded-md text-xs pl-2 font-semibold text-[#ff0000] ${message==2 ? '':'hidden'} `}>Error occurred during form submission !!!</p>
       <div>
