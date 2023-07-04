@@ -1,6 +1,10 @@
 import { Inter } from 'next/font/google'
-
 const inter = Inter({ subsets: ['latin'] })
+
+
+import Mont from 'next/font/local';
+const myFont = Mont({ src: './../../fonts/Montserrat-Regular.ttf' });
+
 
 export const metadata = {
     title: "Asadullah's Portfolio - A Full Stack Developer",
@@ -24,7 +28,7 @@ export default function RootLayout({
       <head>
       <meta name="color-scheme" content="light"/>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={myFont.className}>{children}</body>
     </html>
   )
 }

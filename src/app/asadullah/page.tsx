@@ -56,7 +56,7 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/JoinAsadullah/' target='_blank'> <LinkedinLogo /> </a>
             <a href='https://github.com/JoinAsadullah/' target='_blank'>     <GithubLogo />      </a>
           </div>
-          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center
+          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center dark:text-description
           '>
             I&#39;m Muhammad Asadullah Full Stack Developer with design, development, and marketing expertise. Let&#39;s create exceptional websites and applications together.
           </h2>
@@ -89,20 +89,18 @@ export default function Home() {
             EXPERIENCE
           </h3>
           <div className='rounded-md bg-accent1 rounded-xl p-4 text-center comp-width'>
-            <div className='w-[206px] mx-[auto] my-6 mb-8 relative'>
+            <div className='w-full mx-[auto] my-6 mb-8 relative'>
               <div className=' absolute top-0 w-full h-full p-5 flex items-center'>
-                <h2 className='text-v3 w-full'>5 Years Experience</h2>
+                <h2 className='text-v3 w-full'></h2>
               </div>
               <Badge />
+              <h2 className='text-v3 w-full'>BS Computer Science (2021-25)</h2>
             </div>
             <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
               2+ Years web development Experience
             </h4>
-            <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
-              3+ Years of Design Experience
-            </h4>
             <h4 className='p-3 mt-4 text-v1 bg-accent2 rounded-md'>
-              5 Years of Experience in the field
+              3+ Years of Design Experience
             </h4>
           </div>
         </div>
