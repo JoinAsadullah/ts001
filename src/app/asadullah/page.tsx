@@ -1,7 +1,7 @@
 'use client'
 import ContactForm from './components/contactus.tsx'
 import ThemeBtn from './components/theme-btn.tsx'
-import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo, Badge } from './svgs.tsx'
+import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo, Badge, Signature } from './svgs.tsx'
 import { useEffect, useState } from 'react';
 
 
@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="text-foreground">
       <div className='min-w-[330px] mx-[auto]'>
-        <div className={`mobile-wrapper h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
+        <div className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
           <div className='w-full flex justify-between items-center'>
             <DevxioLogo/>
             <ThemeBtn/>
@@ -37,13 +37,17 @@ export default function Home() {
             dark:bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpic.webp)]
             bg-contain bg-no-repeat sm:mb-[-320px] md:mt-[-120px]'>
           </div>
-          <h1 className='hero-heading max-sm:mt-[-40%] sm:hero-heading-sm sm:py-2
-          md:hero-heading-md md:py-4'>
+          <div className='max-sm:mt-[-65%] pb-7 sm:absolute sm:top-8 sm:w-[30%]'>
+            <Signature className="w-[90%] mx-[auto] "/>
+          </div>
+          <h1 className='hero-heading sm:hero-heading-sm
+          md:hero-heading-md'>
             <span className='bg-clip-1'>Full</span>|
             <span className='bg-clip-1'>Stack </span>
             <span className='bg-clip-1 tracking-[1.48px]'>Developer</span>
           </h1>
-          <a role='button' href='/asadullah/cv' className='text-v2 border-[1px] border-accent5 rounded-lg p-3 comp-width block mt-4'>
+          <a role='button' href='/asadullah/cv' className='text-v2 border-[1px] border-accent5 rounded-lg p-3 comp-width block mt-4
+          md:w-10'>
             VIEW CV
           </a>
           <div className='flex justify-between items-center comp-width mt-4 '>
@@ -52,7 +56,8 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/JoinAsadullah/' target='_blank'> <LinkedinLogo /> </a>
             <a href='https://github.com/JoinAsadullah/' target='_blank'>     <GithubLogo />      </a>
           </div>
-          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center'>
+          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center
+          '>
             I&#39;m Muhammad Asadullah Full Stack Developer with design, development, and marketing expertise. Let&#39;s create exceptional websites and applications together.
           </h2>
         </div>
@@ -60,7 +65,8 @@ export default function Home() {
           <h3 className='text-v0 text-center'>
             SKILLS
           </h3>
-          <div className='flex justify-between flex-wrap pic-invert comp-width'>
+          <div className='flex justify-between flex-wrap pic-invert comp-width
+          md:max-w-full'>
             <img src='/assets/skill(1).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(2).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(3).webp' alt='skill logo' className='h-[30px] m-3'/>
@@ -84,7 +90,9 @@ export default function Home() {
           </h3>
           <div className='rounded-md bg-accent1 rounded-xl p-4 text-center comp-width'>
             <div className='w-[206px] mx-[auto] my-6 mb-8 relative'>
-              <div className=' absolute top-0 w-full h-full p-5 flex items-center'><h2 className='text-v2 w-full'>5 years experience.</h2></div>
+              <div className=' absolute top-0 w-full h-full p-5 flex items-center'>
+                <h2 className='text-v3 w-full'>5 Years Experience</h2>
+              </div>
               <Badge />
             </div>
             <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
@@ -103,13 +111,13 @@ export default function Home() {
             WHAT I&#39;VE DONE SO FAR
           </h3>
           <div className='comp-width'>
-            <div className='w-full aspect-[.69] sm:aspect-square relative truncate
+            <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
               <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent1 object-cover top-0 jsm:aspect-[1]'/>
             </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
-              <p className='w-full mx-[auto] text-v1 text-center'>
+              <p className='w-full mx-[auto] text-v1 text-center p-4'>
                 Designed and developed Focus Academy Website
               </p>
               <div className='flex justify-center items-center pic-invert'>
@@ -119,13 +127,13 @@ export default function Home() {
             </div>
           </div>
           <div className='comp-width mt-4'>
-            <div className='w-full aspect-[.69] sm:aspect-square relative truncate
+            <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
               <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent1 object-cover mb-[-20]'/>
             </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
-              <p className='w-full mx-[auto] text-v1 text-center'>
+              <p className='w-full mx-[auto] text-v1 text-center p-4'>
                 Re developed the Front end of entire Bika Construction website
               </p>
               <div className='flex justify-center items-center pic-invert'>
