@@ -48,10 +48,12 @@ html.dark:root{
   --accent2: #333333;
   --accent1: #111111;
 }
-html.dark*{
+html.dark{
   color-scheme:dark;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 *{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -154,6 +156,7 @@ body{
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
+    cursor: pointer;
   }
   .radio-system{
     background: url(/assets/system-theme.webp);
@@ -163,6 +166,7 @@ body{
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
+    cursor: pointer;
   }
   .radio-dark{
     background: url(/assets/dark-theme.webp);
@@ -172,6 +176,7 @@ body{
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
+    cursor: pointer;
   }
   .active-theme{
     border: 3px solid #FFF;

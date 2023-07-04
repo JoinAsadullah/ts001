@@ -80,7 +80,7 @@ const ContactForm: React.FC = () => {
         />
       </div>
       <div>
-        <label className='text-v1 block w-full rounded-md pl-2' htmlFor="phone">Phone <span className='text-cb1 font-light text-[var(--blue-btn)]'>(optional)</span></label>
+        <label className='text-v1 block w-full rounded-md pl-2' htmlFor="phone">Phone <span className='text-cb1 font-light'>(optional)</span></label>
         <input className={`block w-full rounded-md mb-4 px-2 h-7 disabled:dim-fltr bg-accent2 text-v1 autofill:text-v1 `}
           type="tel"
           id="phone"

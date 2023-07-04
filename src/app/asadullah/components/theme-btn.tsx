@@ -24,10 +24,10 @@ export default function ThemeBtn() {
 
     
     return (
-        <div className='theme-btn h-[30px] w-[90px] bg-accent2 ' >
-            <input name="theme" type="radio" value='light'   checked={theme=='light'} onChange={(e) => setTheme(e.target.value)}     className={`${theme=='light'?'active-theme': ''} dark:invert radio-light w-[30px] h-[30px]`}/>
-            <input name="theme" type="radio" value='system'  checked={theme=='system'} onChange={(e) => setTheme(e.target.value)}      className={`${theme=='system'?'active-theme': ''} dark:invert radio-system w-[30px] h-[30px]`}/>
-            <input name="theme" type="radio" value='dark'    checked={theme=='dark'}   onChange={(e) => setTheme(e.target.value)}     className={`${theme=='dark'?'active-theme': ''} dark:invert radio-dark w-[30px] h-[30px]`}/>
+        <div className='theme-btn h-[34px] w-[95px] p-[2px] bg-accent2 ' >
+            <input name="theme" type="radio" value='light'   checked={theme=='light'} onChange={(e) => setTheme(e.target.value)}     className={`${theme=='light'?'active-theme': ''} dark:invert radio-light w-[30px] h-[30px] hover:bg-accent3`}/>
+            <input name="theme" type="radio" value='system'  checked={theme=='system'} onChange={(e) => setTheme(e.target.value)}      className={`${theme=='system'?'active-theme': ''} dark:invert radio-system w-[30px] h-[30px] hover:bg-accent3`}/>
+            <input name="theme" type="radio" value='dark'    checked={theme=='dark'}   onChange={(e) => setTheme(e.target.value)}     className={`${theme=='dark'?'active-theme': ''} dark:invert radio-dark w-[30px] h-[30px] hover:bg-accent3`}/>
         </div>
     )
 }
