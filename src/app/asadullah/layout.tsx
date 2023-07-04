@@ -15,12 +15,12 @@ export default function RootLayout({
 }) {
   return (
 
-    <html lang="en" className=''>
-      <link rel="preload" href="/assets/asadullahpic.webp"/>
-      <link rel="preload" href="/assets/theme-dark.webp"/>
-      <link rel="preload" href="/assets/theme-system.webp"/>
-      <link rel="preload" href="/assets/theme-light.webp"/>
-      <link rel="preload" href="/assets/asadullahpicw.webp"/>
+    <html lang="en" className='dark'>
+      <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
+      <link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
+      <link rel="preload" as="image" href="/assets/dark-theme.webp"/>
+      <link rel="preload" as="image" href="/assets/system-theme.webp"/>
+      <link rel="preload" as="image" href="/assets/light-theme.webp"/>
       <head>
       <meta name="color-scheme" content="light"/>
       </head>
