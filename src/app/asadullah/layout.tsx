@@ -20,11 +20,7 @@ export default function RootLayout({
   return (
 
     <html lang="en" className='dark'>
-      <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
-      <link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
-      <link rel="preload" as="image" href="/assets/dark-theme.webp"/>
-      <link rel="preload" as="image" href="/assets/system-theme.webp"/>
-      <link rel="preload" as="image" href="/assets/light-theme.webp"/>
+      <link rel="preload" as="image" href="/assets/loader.svg"/>
       <head>
       <meta name="color-scheme" content="light"/>
       </head>
@@ -32,3 +28,8 @@ export default function RootLayout({
     </html>
   )
 }
+{/* <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
+<link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
+<link rel="preload" as="image" href="/assets/dark-theme.webp"/>
+<link rel="preload" as="image" href="/assets/system-theme.webp"/>
+<link rel="preload" as="image" href="/assets/light-theme.webp"/> */}

@@ -1,17 +1,39 @@
 'use client'
 import ContactForm from './components/contactus.tsx'
 import ThemeBtn from './components/theme-btn.tsx'
+import Loader from './components/loader.tsx'
 import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo, Badge, Signature } from './svgs.tsx'
 import { useEffect, useState } from 'react';
 
 
 
 export default function Home() {
+  const [loading, setLoading] = useState<boolean>(true);
   const [scrollAtTop, setScrollAtTop] = useState<boolean>(true);
-
+  
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+      console.log('loaded');
+    };
+  
+    if (document.readyState === 'complete') {
+      // If the document is already loaded, trigger handleLoad immediately
+      handleLoad();
+    } else {
+      // Listen for the "load" event
+      window.addEventListener('load', handleLoad);
+    }
+  
+    return () => {
+      // Cleanup: Remove the event listener
+      window.removeEventListener('load', handleLoad);
+    };
+  }, []);
+  
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY || window.pageYOffset;
+      const scrollPosition = window.scrollY;
       setScrollAtTop(scrollPosition === 0);
     };
 
@@ -23,9 +45,11 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="text-foreground">
-      <div className='min-w-[330px] mx-[auto]'>
-        <div className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
+    <>
+    {loading==true ? <Loader/>: ""}
+    <main className={`text-foreground `}>
+      <div className={`min-w-[330px] mx-[auto]`}>
+        <div  className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
           <div className='w-full flex justify-between items-center'>
             <DevxioLogo/>
             <ThemeBtn/>
@@ -166,5 +190,6 @@ export default function Home() {
         </div>
       </div>
     </main>
+    </>
   )
 }
