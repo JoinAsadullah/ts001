@@ -212,3 +212,14 @@ body{
     border: 3px solid #fff;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .systembg{
+    background-color: #000;
+  }
+}
+@media (prefers-color-scheme: light) {
+.systembg{
+  background-color: #fff;
+}
+}
