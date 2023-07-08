@@ -62,13 +62,13 @@ export default function Home() {
             bg-contain bg-no-repeat sm:mb-[-320px] md:mt-[-120px]'>
           </div>
           <div className='max-sm:mt-[-65%] pb-7 sm:absolute sm:top-8 sm:w-[30%]'>
-            <Signature className="w-[90%] mx-[auto] "/>
+            <Signature className="w-[60%] mx-[auto] "/>
           </div>
           <h1 className='hero-heading sm:hero-heading-sm
           md:hero-heading-md'>
             <span className='bg-clip-1'>Full</span>|
             <span className='bg-clip-1'>Stack </span>
-            <span className='bg-clip-1 tracking-[1.48px]'>Developer</span>
+            <span className='bg-clip-1 tracking-[1.48px] text-right'>Developer</span>
           </h1>
           <a role='button' href='/asadullah/cv' className='text-v2 border-[1px] border-accent5 rounded-lg p-3 comp-width block mt-4
           md:w-10'>
