@@ -21,6 +21,8 @@ export default function RootLayout({
 
     <html lang="en" className='dark'>
       <link rel="preload" as="image" href="/assets/loader.svg"/>
+      <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
+      <link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
       <head>
       <meta name="color-scheme" content="light"/>
       </head>
