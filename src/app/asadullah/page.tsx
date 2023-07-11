@@ -93,6 +93,7 @@ export default function Home() {
           md:max-w-full'>
             <img src='/assets/skill(1).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(2).webp' alt='skill logo' className='h-[30px] m-3'/>
+            <img src='/assets/skill(16).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(3).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(4).webp' alt='skill logo' className='h-[30px] m-3'/>
             <img src='/assets/skill(5).webp' alt='skill logo' className='h-[30px] m-3'/>
@@ -113,12 +114,12 @@ export default function Home() {
             EXPERIENCE
           </h3>
           <div className='rounded-md bg-accent1 rounded-xl p-4 text-center comp-width'>
-            <div className='w-full mx-[auto] my-6 mb-8 relative'>
+            <div className='w-full mx-[auto] py-6 pb-8 relative bg-accent2 rounded-md'>
               <div className=' absolute top-0 w-full h-full p-5 flex items-center'>
                 <h2 className='text-v3 w-full'></h2>
               </div>
               <Badge />
-              <h2 className='text-v3 w-full'>BS Computer Science (2021-25)</h2>
+              <h2 className='text-v1 w-full'>BS Computer Science (2021-25)</h2>
             </div>
             <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
               2+ Years web development Experience
