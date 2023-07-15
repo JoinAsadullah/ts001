@@ -9,6 +9,7 @@ const dataSchema = new mongoose.Schema({
   email: String,
   phone: String,
   message: String,
+  subscribe: Boolean,
 });
 
 
@@ -16,7 +17,7 @@ const dataSchema = new mongoose.Schema({
 const DataModel = mongoose.models.Data || mongoose.model('Data', dataSchema);
 
 export async function POST(request: Request) {
-  const { name, email, phone, message } = await request.json();
+  const { name, email, phone, message, subscribe } = await request.json();
 
   try {
     // Connect to MongoDB using the connection string from .env
@@ -24,7 +25,7 @@ export async function POST(request: Request) {
     });
 
     // Create a new instance of the DataModel with the collected data
-    const newData = new DataModel({ name, email, phone, message });
+    const newData = new DataModel({ name, email, phone, message, subscribe });
 
     // Save the data to MongoDB
     await newData.save();

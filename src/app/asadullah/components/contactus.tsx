@@ -25,6 +25,7 @@ const ContactForm: React.FC = () => {
   const [message, setMessage] = useState<number>(0);
 
 
+
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -106,8 +107,8 @@ const ContactForm: React.FC = () => {
         <input className='w-[20px] h-[20px]' type="checkbox"
         id="subscribe"
         name="subscribe"
-        defaultChecked={formData.subscribe}
-        onChange={handleChange}
+        checked={formData.subscribe}
+        onChange={()=>{setFormData({ ...formData, subscribe: !formData.subscribe });console.log(formData)}}
         disabled={message==3?true:false}
         />
         <label className='mx-2 text-accent5 text-v1'>Subscribe to news letter</label>
