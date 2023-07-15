@@ -61,10 +61,14 @@ export default function Home() {
             dark:bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpic.webp)]
             bg-contain bg-no-repeat sm:mb-[-320px] md:mt-[-120px]'>
           </div>
-          <h1 className='text-left max-sm:mt-[-60%] hero-heading sm:hero-heading-sm
+          <div className='max-sm:mt-[-65%] pb-7 sm:absolute sm:top-8 sm:w-[30%]'>
+            <Signature className="w-[60%] mx-[auto] "/>
+          </div>
+          <h1 className='hero-heading sm:hero-heading-sm
           md:hero-heading-md'>
-            <span className='bg-clip-1'>Muhammad </span>
-            <span className='bg-clip-1'>Asadullah</span>
+            <span className='bg-clip-1'>Full</span>|
+            <span className='bg-clip-1'>Stack </span>
+            <span className='bg-clip-1 tracking-[1.48px] text-right'>Developer</span>
           </h1>
           <a role='button' href='/asadullah/cv' className='text-v2 border-[1px] border-accent5 rounded-lg p-3 comp-width block mt-4
           md:w-10'>
@@ -76,9 +80,9 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/JoinAsadullah/' target='_blank'> <LinkedinLogo /> </a>
             <a href='https://github.com/JoinAsadullah/' target='_blank'>     <GithubLogo />      </a>
           </div>
-          <h2 className='comp-width mt-4 text-v1 text-left  dark:text-description
+          <h2 className='comp-width mt-4 text-v1 text-left sm:text-center dark:text-description
           '>
-            I&#39;m Muhammad Asadullah Digital Marketing expert and Full Stack Website developer. Let me help you build an online presence that stands out from the competition and leaves a lasting impression.
+            I&#39;m Muhammad Asadullah Full Stack Developer with design, development, and marketing expertise. Let&#39;s create exceptional websites and applications together.
           </h2>
         </div>
         <div className='mobile-wrapper div-space'>
@@ -118,10 +122,10 @@ export default function Home() {
               <h2 className='text-v1 w-full'>BS Computer Science (2021-25)</h2>
             </div>
             <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
-              2+ Years of Digital Marketing Experience
+              2+ Years web development Experience
             </h4>
             <h4 className='p-3 mt-4 text-v1 bg-accent2 rounded-md'>
-              2+ Years web development Experience
+              3+ Years of Design Experience
             </h4>
           </div>
         </div>
@@ -133,7 +137,7 @@ export default function Home() {
             <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
-              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent1 object-cover top-0 dark:drken'/>
+              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent1 object-cover top-0 jsm:aspect-[1]'/>
             </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center p-4'>
@@ -149,7 +153,7 @@ export default function Home() {
             <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
-              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent1 object-cover mb-[-20] dark:drken'/>
+              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent1 object-cover mb-[-20]'/>
             </div>
             <div className=' bottom-bdr bg-accent1 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center p-4'>
@@ -167,15 +171,15 @@ export default function Home() {
             SERVICES
           </h3>
           <div className='text-center comp-width pic-invert'>
-            <img src='/assets/mrk.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <img src='/assets/webpg.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
             <p className='text-v1 w-4/5 mx-auto mt-2'>
-             Email Marketing, SEO, Socail Media Marketing
+             Integrated web application and information system development.
             </p>
           </div>
           <div className='text-center mt-6 comp-width pic-invert'>
-            <img src='/assets/webpg.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
+            <img src='/assets/mrk.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
             <p className='text-v1 w-4/5 mx-auto mt-2'>
-              Integrated web application and information system development.
+              Email Marketing, SEO, Socail Media Marketing
             </p>
           </div>
         </div>
