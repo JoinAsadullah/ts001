@@ -109,7 +109,7 @@ export default function Home() {
           <h3 className='text-v0 text-center title-space'>
             EXPERIENCE
           </h3>
-          <div className='rounded-md bg-accent1 rounded-xl p-4 text-center comp-width'>
+          <div className='rounded-md bg-accent1 rounded-xl p-2 text-center comp-width'>
             <div className='w-full mx-[auto] py-6 pb-8 relative bg-accent2 rounded-md'>
               <div className=' absolute top-0 w-full h-full p-5 flex items-center'>
                 <h2 className='text-v3 w-full'></h2>
@@ -133,9 +133,9 @@ export default function Home() {
             <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
-              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent1 object-cover top-0 dark:drken'/>
+              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent3 object-cover top-0 dark:drken'/>
             </div>
-            <div className=' bottom-bdr bg-accent1 py-2'>
+            <div className=' bottom-bdr bg-accent2 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center p-4'>
                 Designed and developed Focus Academy Website
               </p>
@@ -149,9 +149,9 @@ export default function Home() {
             <div className='w-full aspect-[.71] sm:aspect-square relative truncate
             md:aspect-[1.2]
             '>
-              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent1 object-cover mb-[-20] dark:drken'/>
+              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent3 object-cover mb-[-20] dark:drken'/>
             </div>
-            <div className=' bottom-bdr bg-accent1 py-2'>
+            <div className=' bottom-bdr bg-accent2 py-2'>
               <p className='w-full mx-[auto] text-v1 text-center p-4'>
                 Re developed the Front end of entire Bika Construction website
               </p>
