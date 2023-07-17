@@ -27,16 +27,15 @@ export default function RootLayout({
       <head>
       <Script
                 strategy="afterInteractive"
-                src={`src="https://www.googletagmanager.com/gtag/js?id=G-RSF1SVHWW3"`}
+                src={`https://www.googletagmanager.com/gtag/js?id=G-RSF1SVHWW3`}
             />
 
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
-                      window.dataLayer = window.dataLayer || [];
-                      function gtag(){dataLayer.push(arguments);}
-                      gtag('js', new Date());
-                    
-                      gtag('config', 'G-RSF1SVHWW3');
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RSF1SVHWW3');
                 `}
             </Script>
        <meta name="color-scheme" content="light"/>
