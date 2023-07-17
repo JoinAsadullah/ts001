@@ -3,6 +3,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 import Mont from 'next/font/local';
+import Script from 'next/script';
 const myFont = Mont({ src: './../../fonts/Montserrat-Regular.ttf' });
 
 
@@ -24,7 +25,21 @@ export default function RootLayout({
       <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
       <link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
       <head>
-      <meta name="color-scheme" content="light"/>
+      <Script
+                strategy="afterInteractive"
+                src={`src="https://www.googletagmanager.com/gtag/js?id=G-RSF1SVHWW3"`}
+            />
+
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                    
+                      gtag('config', 'G-RSF1SVHWW3');
+                `}
+            </Script>
+       <meta name="color-scheme" content="light"/>
       </head>
       <body className={myFont.className}>{children}</body>
     </html>
@@ -35,3 +50,4 @@ export default function RootLayout({
 <link rel="preload" as="image" href="/assets/dark-theme.webp"/>
 <link rel="preload" as="image" href="/assets/system-theme.webp"/>
 <link rel="preload" as="image" href="/assets/light-theme.webp"/> */}
+
