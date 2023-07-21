@@ -44,9 +44,5 @@ export default function RootLayout({
     </html>
   )
 }
-{/* <link rel="preload" as="image" href="/assets/asadullahpic.webp"/>
-<link rel="preload" as="image" href="/assets/asadullahpicw.webp"/>
-<link rel="preload" as="image" href="/assets/dark-theme.webp"/>
-<link rel="preload" as="image" href="/assets/system-theme.webp"/>
-<link rel="preload" as="image" href="/assets/light-theme.webp"/> */}
+
 
