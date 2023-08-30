@@ -51,13 +51,13 @@ export default function ThemeBtn() {
             onChange={handleThemeChange}
             className={`${theme === 'system' ? 'active-theme' : ''} dark:invert radio-system w-[30px] h-[30px] hover:bg-accent3`}
           />
-          <input
-            name='theme'
-            type='radio'
-            value='dark'
-            checked={theme === 'dark'}
-            onChange={handleThemeChange}
-            className={`${theme === 'dark' ? 'active-theme' : ''} dark:invert radio-dark w-[30px] h-[30px] hover:bg-accent3`}
+            <input
+              name='theme'
+              type='radio'
+              value='dark'
+              checked={theme === 'dark'}
+              onChange={handleThemeChange}
+              className={`${theme === 'dark' ? 'active-theme' : ''} dark:invert radio-dark w-[30px] h-[30px] hover:bg-accent3`}
           />
         </div>
     )
