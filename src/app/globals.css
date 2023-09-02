@@ -183,8 +183,6 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    appearance: none;
-    -webkit-appearance: none;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -209,7 +207,8 @@ body{
     cursor: pointer;
   }
   .active-theme{
-    border: 3px solid #fff;
+    border: 3px solid #bbb;
+    transform: scale(1.1);
   }
   .drken{
     filter: brightness(.7);
@@ -225,4 +224,9 @@ body{
 .systembg{
   background-color: #fff;
 }
+}
+
+/* marketing page styles */
+@layer components{
+
 }

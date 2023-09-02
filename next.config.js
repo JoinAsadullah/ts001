@@ -6,7 +6,7 @@ module.exports = {
       return [
         {
           source: '/',
-          destination: '/asadullah',
+          destination: '/marketing/asadullah',
           permanent: true, // 301 Permanent Redirect
         },
         {

@@ -1,10 +1,5 @@
-import { Inter } from 'next/font/google'
-const inter = Inter({ subsets: ['latin'] })
-
-
-import Mont from 'next/font/local';
 import Script from 'next/script';
-const myFont = Mont({ src: './../../fonts/Montserrat-Regular.ttf' });
+
 
 
 export const metadata = {
@@ -40,7 +35,7 @@ export default function RootLayout({
             </Script>
        <meta name="color-scheme" content="light"/>
       </head>
-      <body className={myFont.className}>{children}</body>
+      <body >{children}</body>
     </html>
   )
 }

@@ -1,6 +1,6 @@
 export function DevxioLogo() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 707.643 148.77">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 707.643 148.77">
             <defs>
                 <clipPath id="clipPath">
                     <rect id="Rectangle_29" data-name="Rectangle 29" width="149.578" height="148.77" fill="none" />
