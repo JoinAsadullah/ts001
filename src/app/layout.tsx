@@ -32,9 +32,26 @@ export default function RootLayout({
                     gtag('config', 'G-RSF1SVHWW3');
                 `}
             </Script>
+            
+      <Script
+                strategy="afterInteractive"
+                src={`https://www.googletagmanager.com/gtag/js?id=AW-11293577838`}
+            />
+
+            <Script id="google-ads" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-11293577838');
+                `}
+            </Script>
+            
        <meta name="color-scheme" content="light"/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
+
