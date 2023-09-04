@@ -1,8 +1,9 @@
 'use client'
 import ThemeBtn from './components/theme-btn.tsx'
 import Loader from './components/loader.tsx'
-import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GithubLogo, Badge, Signature } from './svgs.tsx'
+import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GmailLogo, WhatsappLogo, GithubLogo, Badge, Signature } from './svgs.tsx'
 import { useEffect, useState } from 'react';
+import Image from 'next/image'
 
 
 
@@ -43,145 +44,162 @@ export default function Home() {
     };
   }, []);
 
+  const skills = ['Digital Marketing', 'Social Media Marketing', 'Search Engine Optimization', 'Search Engine Marketing', 'Content Marketing', 'Email Marketing', 'Google Analytics', 'Google Ads', 'Facebook Ads', 'Instagram Ads', 'LinkedIn Ads', 'Twitter Ads', 'Pinterest Ads', 'TikTok Ads', 'Snapchat Ads', 'YouTube Ads', 'Google My Business', 'Google Tag Manager', 'Google Search Console', 'Google Data Studio', 'Google Optimize', 'Google Ads Editor', 'Google Ads Scripts', 'Google Ads API', 'Google Ads Mobile App', 'Google Ads App', 'Google Ads Editor', 'Google Ads Scripts', 'Google Ads API', 'Google Ads Mobile App', 'Google Ads App', 'Google Ads Editor', 'Google Ads Scripts', 'Google Ads API', 'Google Ads Mobile App', 'Google Ads App', 'Google Ads Editor', 'Google Ads Scripts', 'Google Ads API', 'Google Ads Mobile App', 'Google Ads App', 'Google Ads Editor', 'Google Ads Scripts', 'Google Ads API', 'Google Ads Mobile App', 'Google Ads App']
+
   return (
     <>
     {loading==true ? <Loader/>: ""}
     <main className={`text-foreground `}>
-      <div className={`min-w-[330px] mx-[auto]`}>
+      <div className={`min-w-[320px] mx-[auto]`}>
         <div  className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
-          <div className='w-full flex justify-between items-center'>
+          <div className='w-full flex justify-between items-center '>
             <DevxioLogo/>
             <ThemeBtn/>
           </div>
         </div>
-        <div className='text-center mobile-wrapper pt-8 relative mb-16'>
-          <div className='relative aspect-[.750] w-full max-w-[550px] mx-[auto] mt-[-75px] relative z-[-1]
-            bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpicw.webp)]
-            dark:bg-[linear-gradient(to_bottom,_#00000000_70%,var(--background)_80%),url(/assets/asadullahpic.webp)]
-            bg-contain bg-no-repeat sm:mb-[-320px] md:mt-[-120px]'>
-          </div>
-          <h1 className='text-left max-sm:mt-[-60%] hero-heading sm:hero-heading-sm
-          md:hero-heading-md'>
-            <span className='bg-clip-1'>Muhammad </span>
-            <span className='bg-clip-1'>Asadullah</span>
+        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 pt-6 xsm:pt-7 sm:pt-8 w-full max-w-[1000px] mx-auto'>
+          <h1 className='mk-heading text-[30px] xsm:text-[36px] sm:text-[40px] md:text-[48px]'>
+            Unlock Your Digital Potential with <br/><span className='text-[#1E8E3E]'>Digital Marketing Expert</span>
           </h1>
-          <a role='button' href='/asadullah/cv' className='text-v2 border-[1px] border-accent5 rounded-lg p-3 comp-width block mt-4
-          md:w-10'>
-            VIEW CV
-          </a>
-          <div className='flex justify-between items-center comp-width mt-4 '>
-            <a href='https://www.facebook.com/joinasadullah/' target='_blank'>   <FbLogo />  </a>
-            <a href='https://twitter.com/JoinAsadullah/' target='_blank'>     <TwitterLogo />     </a>
-            <a href='https://www.linkedin.com/in/JoinAsadullah/' target='_blank'> <LinkedinLogo /> </a>
-            <a href='https://github.com/JoinAsadullah/' target='_blank'>     <GithubLogo />      </a>
-          </div>
-          <h2 className='comp-width mt-4 text-v1 text-left  dark:text-description
-          '>
-            I&#39;m Muhammad Asadullah Digital Marketing expert and Full Stack Website developer. Let me help you build an online presence that stands out from the competition and leaves a lasting impression.
-          </h2>
         </div>
-        <div className='mobile-wrapper div-space'>
-          <h3 className='text-v0 text-center'>
-            SKILLS
-          </h3>
-          <div className='flex justify-between flex-wrap pic-invert comp-width
-          md:max-w-full'>
-            <img src='/assets/skill(1).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(2).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(16).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(3).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(4).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(5).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(6).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(7).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(8).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(9).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(10).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(11).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(12).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(13).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(14).webp' alt='skill logo' className='h-[30px] m-3'/>
-            <img src='/assets/skill(15).webp' alt='skill logo' className='h-[30px] m-3'/>
-          </div>
-        </div>
-        <div className='mobile-wrapper div-space'>
-          <h3 className='text-v0 text-center title-space'>
-            EXPERIENCE
-          </h3>
-          <div className='rounded-md bg-accent1 rounded-xl p-2 text-center comp-width'>
-            <div className='w-full mx-[auto] py-6 pb-8 relative bg-accent2 rounded-md'>
-              <div className=' absolute top-0 w-full h-full p-5 flex items-center'>
-                <h2 className='text-v3 w-full'></h2>
+        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 md:mt-9 w-full max-w-[1000px] mx-auto'>
+          <div className='mk-shadow1 rounded-xl p-4 md:px-6 md:py-4  sm:flex'>
+            <div className='rounded-full p-3 flex items-center justify-center'>
+              <Image className='rounded-full border-[3px] border-solid border-[var(--accent1)] sm:w-[900px]' src="/assets/asadullah.webp" alt="My Image" width={300} height={300} />
+            </div>
+            <div>
+              <div className='mt-5 mb-2 '>
+                <h1 className='mk-heading2 mr-1 inline leading-0 xsm:text-[24px]'>
+                  Muhammad Asadullah
+                </h1>
               </div>
-              <Badge />
-              <h2 className='text-v1 w-full'>BS Computer Science (2021-25)</h2>
-            </div>
-            <h4 className='p-3 my-4 text-v1 bg-accent2 rounded-md'>
-              2+ Years of Digital Marketing Experience
-            </h4>
-            <h4 className='p-3 mt-4 text-v1 bg-accent2 rounded-md'>
-              2+ Years web development Experience
-            </h4>
-          </div>
-        </div>
-        <div className='mobile-wrapper div-space'>
-          <h3 className='text-v0 text-center title-space'>
-            WHAT I&#39;VE DONE SO FAR
-          </h3>
-          <div className='comp-width'>
-            <div className='w-full aspect-[.71] sm:aspect-square relative truncate
-            md:aspect-[1.2]
-            '>
-              <img src='/assets/fa.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[10px] border-accent3 object-cover top-0 dark:drken'/>
-            </div>
-            <div className=' bottom-bdr bg-accent2 py-2'>
-              <p className='w-full mx-[auto] text-v1 text-center p-4'>
-                Designed and developed Focus Academy Website
+              <p className='mk-p'>
+                Hi there!
+                I am accomplished digital marketing professional with certifications from Meta, Google, and HubSpot,
+                coupled with over two years of hands-on experience, I offer strategic leadership in driving your business&#39;s digital success.
+                Contact now to discuss your project.
               </p>
-              <div className='flex justify-center items-center pic-invert'>
-                <a href='https://github.com/JoinAsadullah/focusacademy' target='_blank'><img src='/assets/github.webp' alt='github repo' className='h-[30px] m-3'/></a>
-                <a href='https://joinasadullah.github.io/focusacademy/' target='_blank'><img src='/assets/rd.webp' alt='redirect url' className='h-[30px] m-3'/></a>
-              </div>
-            </div>
-          </div>
-          <div className='comp-width mt-4'>
-            <div className='w-full aspect-[.71] sm:aspect-square relative truncate
-            md:aspect-[1.2]
-            '>
-              <img src='/assets/bk.webp' alt='focus academy website screenshot' className='absolute top-0 w-full top-bdr border-[6px] sm:border-[10px] border-accent3 object-cover mb-[-20] dark:drken'/>
-            </div>
-            <div className=' bottom-bdr bg-accent2 py-2'>
-              <p className='w-full mx-[auto] text-v1 text-center p-4'>
-                Re developed the Front end of entire Bika Construction website
-              </p>
-              <div className='flex justify-center items-center pic-invert'>
-                <a href='https://github.com/JoinAsadullah/bika' target='_blank'><img src='/assets/github.webp' alt='github repo' className='h-[30px] m-3'/></a>
-                <a href='https://joinasadullah.github.io/bika/' target='_blank'><img src='/assets/rd.webp' alt='redirect url' className='h-[30px] m-3'/></a>
+              <div className='mt-5 mb-2 '>
+                <a className='pr-1' href='https://web.facebook.com/joinasadullah/' target='_blank'><FbLogo/></a>
+                <a className='px-1' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><LinkedinLogo/></a>
+                <a className='px-1' href='mailto:asadullah@devxio.com' target='_blank'><GmailLogo/></a>
+                <a className='px-1' href='http://wa.me/923111678546' target='_blank'><WhatsappLogo/></a>
               </div>
             </div>
           </div>
         </div>
-        <div className='mobile-wrapper div-space'>
-          <h3 className='text-v0 text-center title-space'>
-            SERVICES
+        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 w-full max-w-[1000px] mx-auto'>
+          <h3 className='font-semibold text-center text-[18px] mb-4'>
+            Certifications
           </h3>
-          <div className='text-center comp-width pic-invert'>
-            <img src='/assets/mrk.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
-            <p className='text-v1 w-4/5 mx-auto mt-2'>
-             Email Marketing, SEO, Socail Media Marketing
-            </p>
-          </div>
-          <div className='text-center mt-6 comp-width pic-invert'>
-            <img src='/assets/webpg.webp' alt='webpage icon' className='w-1/2 mx-auto mt-2'/>
-            <p className='text-v1 w-4/5 mx-auto mt-2'>
-              Integrated web application and information system development.
-            </p>
+          <div className='mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 '>
+            <div className='mb-6 mt-4'>
+              <a href='https://www.credly.com/badges/9b68f292-de7c-4379-ad42-8f13f95a4c55/public_url' className='flex'>
+                  <div className='flex items-center'>
+                      <Image className='' src="/assets/metaassociate.png" alt="My Image" width={100} height={100} />
+                  </div>
+                  <div className='ml-2'>
+                    <h4 className='text-[16px] font-semibold leading-tight mb-1'>
+                      Meta Certified Digital Marketing Associate
+                    </h4>
+                    <div>
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
+                        Verified by Credly
+                      </h4>
+                      <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
+                      Provider: Meta<br/>
+                      Issued: August 2023 - Expires: August 2025
+                      </h4>
+                    </div>
+                  </div>
+              </a>
+            </div>
+            <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
+            <div className='mt-6 mb-6'>
+              <a href='https://www.credly.com/badges/0f63e9cd-ba08-45b3-a509-1a539d076c5c/public_url' className='flex'>
+                  <div className='flex items-center'>
+                      <Image className='' src="/assets/googlebadge.png" alt="My Image" width={100} height={100} />
+                  </div>
+                  <div className='ml-2'>
+                    <h4 className='text-[16px] font-semibold leading-tight mb-1'>
+                      Google Digital Marketing and E-commerce professional
+                    </h4>
+                    <div>
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
+                        Verified by Credly
+                      </h4>
+                      <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
+                      Provider: coursera<br/>
+                      Issued: August 2023
+                      </h4>
+                    </div>
+                  </div>
+              </a>
+            </div>  
+            <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
+            <div className='mt-6 mb-6'>
+              <a href='https://coursera.org/share/0ec89c0fec0ca52fc98241b1105125d4' className='flex'>
+                  <div className='flex items-center'>
+                      <Image className='' src="/assets/metaprofessional.png" alt="My Image" width={100} height={100} />
+                  </div>
+                  <div className='ml-2'>
+                    <h4 className='text-[16px] font-semibold leading-tight mb-1'>
+                      Meta Social Media Marketing Professional
+                    </h4>
+                    <div>
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
+                        Click to verify
+                      </h4>
+                      <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
+                      Provider: Coursera<br/>
+                      Issued: August 2023
+                      </h4>
+                    </div>
+                  </div>
+              </a>
+            </div>  
+            <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
+            <div className='mt-6 mb-6'>
+              <a href='https://app.hubspot.com/academy/achievements/mftzx71n/en/1/muhammad-asadullah/hubspot-marketing-software' className='flex'>
+                  <div className='flex items-center'>
+                      <Image className='' src="/assets/hubspotbadge.webp" alt="My Image" width={100} height={100} />
+                  </div>
+                  <div className='ml-2'>
+                    <h4 className='text-[16px] font-semibold leading-tight mb-1'>
+                      Hubspot Marketing Software Certified
+                    </h4>
+                    <div>
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
+                        Click to verify
+                      </h4>
+                      <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
+                      Provider: Hubspot<br/>
+                      Issued: August 2023 - Expires: September 2024
+                      </h4>
+                    </div>
+                  </div>
+              </a>
+            </div>  
           </div>
         </div>
-        <div className='mobile-wrapper div-space'>
-          <h3 className='text-v0 text-center title-space'>
-            CONTACT US
+        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 w-full max-w-[1000px] mx-auto'>
+          <h3 className='font-semibold text-center text-[18px] mb-4'>
+            Skills
           </h3>
+            <div className='mb-10 flex flex-wrap'>
+              {skills.map((skill, index) => (
+                <div key={index} className='px-2 pb-1 pt-[1px] mr-1 inline border-solid border-accent2 border-[2px] rounded-full my-1'>
+                  <h5 className='text-[12px] font-normal inline'>
+                    {skill}
+                  </h5>
+                  <Image className='inline dark:invert' src="/assets/badge1.png" alt="My Image" width={15} height={15} />
+                </div>
+              ))}
+            </div>
         </div>
       </div>
     </main>

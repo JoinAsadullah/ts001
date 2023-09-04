@@ -30,33 +30,102 @@ export function DevxioLogo() {
     )
 }
 
-
-
 export function FbLogo() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 46 45.92">
-            <path id="Path_39" data-name="Path 39" d="M25,3a21.987,21.987,0,0,0-3.288,43.728v-15.9H16.269V25.048h5.443V21.2c0-6.371,3.1-9.168,8.4-9.168a30.581,30.581,0,0,1,4.512.274v5.048H31.011c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588l-.894,5.783H27.978V46.775A21.988,21.988,0,0,0,25,3Z" transform="translate(-2 -2)" fill="none" stroke="var(--foreground)" strokeWidth="1" />
-        </svg>
-    )
-}
-export function TwitterLogo() {
+      <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="45" viewBox="0 0 80 80">
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="40" cy="40" r="40" fill="var(--accent1)" />
+        <path
+          id="Path_70"
+          data-name="Path 70"
+          d="M96.692,40.945v-18.3H90.426V15.987h6.266v-4.43C96.692,4.222,100.26,1,106.362,1a35,35,0,0,1,5.194.316V7.13H107.4c-2.588,0-3.492,2.453-3.492,5.218v3.64h7.585l-1.03,6.657H103.9V41Z"
+          transform="translate(-60.991 18.113)"
+          fill="none"
+          stroke="var(--foreground)"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    );
+  }
+  
+  export function GmailLogo() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 46 46">
-            <path id="Path_41" data-name="Path 41" d="M28.54,8.368a11.737,11.737,0,0,1-3.372.925,5.882,5.882,0,0,0,2.581-3.245,11.781,11.781,0,0,1-3.727,1.422,5.87,5.87,0,0,0-10,5.351A16.66,16.66,0,0,1,1.932,6.689a5.88,5.88,0,0,0,1.817,7.837,5.862,5.862,0,0,1-2.659-.736v.074a5.875,5.875,0,0,0,4.705,5.755,5.873,5.873,0,0,1-1.545.205,5.652,5.652,0,0,1-1.106-.107,5.881,5.881,0,0,0,5.481,4.077A11.762,11.762,0,0,1,1.339,26.3a11.543,11.543,0,0,1-1.4-.082,16.577,16.577,0,0,0,8.993,2.637c10.792,0,16.694-8.94,16.694-16.692,0-.254-.007-.51-.016-.76A11.927,11.927,0,0,0,28.54,8.368Z" transform="translate(8.759 6.65)" fill="none" stroke="var(--foreground)" strokeWidth="1" />
-            <g id="Ellipse_13" data-name="Ellipse 13" fill="none" stroke="var(--foreground)" strokeWidth="1">
-                <circle cx="23" cy="23" r="23" stroke="none" />
-                <circle cx="23" cy="23" r="22.5" fill="none" />
-            </g>
-        </svg>
-    )
-}
-export function LinkedinLogo() {
+      <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="45" viewBox="0 0 80 80">
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="40" cy="40" r="40" fill="var(--accent1)" />
+        <path
+          id="Path_69"
+          data-name="Path 69"
+          d="M77.42,5.5a4.566,4.566,0,0,0-2.9.889L72.233,8.076,61.8,15.79,51.462,8.149a.832.832,0,0,0-.535-.235h.208l-2.054-1.52a4.568,4.568,0,0,0-2.9-.891,4.2,4.2,0,0,0-2.783,1.2,5.335,5.335,0,0,0-1.589,3.8v2.86a.877.877,0,0,0,0,.245V33.07a2.928,2.928,0,0,0,2.916,2.915h6.247a.834.834,0,0,0,.834-.833V21.3l9.5,7.024a.83.83,0,0,0,.989,0l9.5-7.024V35.152a.832.832,0,0,0,.833.833h6.248a2.926,2.926,0,0,0,2.913-2.915V13.593a.685.685,0,0,0,0-.216V10.5a5.348,5.348,0,0,0-1.556-3.779c-.03-.029-.039-.036-.027-.024L80.2,6.694A4.193,4.193,0,0,0,77.42,5.5Z"
+          transform="translate(-21.797 19.26)"
+          fill="none"
+          stroke="var(--foreground)"
+          strokeMiterlimit="10"
+          strokeWidth="2"
+        />
+      </svg>
+    );
+  }
+  
+  export function TwitterLogo() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 47 47">
-            <path id="Path_42" data-name="Path 42" d="M25,2A23,23,0,1,0,48,25,23.026,23.026,0,0,0,25,2ZM18,35H14V20h4ZM16,17a2,2,0,1,1,2-2A2,2,0,0,1,16,17ZM37,35H33V27.5a3.5,3.5,0,0,0-7,0V35H22V20h4v1.816A6.5,6.5,0,0,1,37,26.5Z" transform="translate(-1.5 -1.5)" fill="none" stroke="var(--foreground)" strokeWidth="1" />
-        </svg>
-    )
-}
+      <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 46 46">
+        <path
+          id="Path_41"
+          data-name="Path 41"
+          d="M28.54,8.368a11.737,11.737,0,0,1-3.372.925,5.882,5.882,0,0,0,2.581-3.245,11.781,11.781,0,0,1-3.727,1.422,5.87,5.87,0,0,0-10,5.351A16.66,16.66,0,0,1,1.932,6.689a5.88,5.88,0,0,0,1.817,7.837,5.862,5.862,0,0,1-2.659-.736v.074a5.875,5.875,0,0,0,4.705,5.755,5.873,5.873,0,0,1-1.545.205,5.652,5.652,0,0,1-1.106-.107,5.881,5.881,0,0,0,5.481,4.077A11.762,11.762,0,0,1,1.339,26.3a11.543,11.543,0,0,1-1.4-.082,16.577,16.577,0,0,0,8.993,2.637c10.792,0,16.694-8.94,16.694-16.692,0-.254-.007-.51-.016-.76A11.927,11.927,0,0,0,28.54,8.368Z"
+          transform="translate(8.759 6.65)"
+          fill="none"
+          stroke="var(--foreground)"
+          strokeWidth="1"
+        />
+        <g id="Ellipse_13" data-name="Ellipse 13" fill="var(--foreground)" stroke="" strokeWidth="1">
+          <circle cx="23" cy="23" r="23" stroke="none" />
+          <circle cx="23" cy="23" r="22.5" fill="none" />
+        </g>
+      </svg>
+    );
+  }
+  
+  export function LinkedinLogo() {
+    return (
+      <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="45" viewBox="0 0 80 80">
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="40" cy="40" r="40" fill="var(--accent1)" />
+        <path
+          id="Path_71"
+          data-name="Path 71"
+          d="M149.948,43.644h-6.956V17.556h6.956Zm-3.478-31.3a3.478,3.478,0,1,1,3.478-3.478A3.478,3.478,0,0,1,146.47,12.339Zm36.522,31.3h-6.956V30.6a6.088,6.088,0,0,0-12.175,0V43.644H156.9V17.556h6.956v3.159a11.3,11.3,0,0,1,19.132,8.146Z"
+          transform="translate(-122.992 14.6)"
+          fill="none"
+          stroke="var(--foreground)"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    );
+  }
+  
+  export function WhatsappLogo() {
+    return (
+      <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="45" viewBox="0 0 80 80">
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="40" cy="40" r="40" fill="var(--accent1)" />
+        <path
+          id="Path_72"
+          data-name="Path 72"
+          d="M21,4.468a20,20,0,1,1-9.751,37.461.957.957,0,0,0-.693-.094L1.406,44.1,3.86,35.348a.957.957,0,0,0-.094-.741A19.994,19.994,0,0,1,21,4.468ZM13.041,14.944c.367,0,.729.005,1.032.019s.492.4.432.372-.178-.422,0,0c.231.55.631,1.514.989,2.371.178.429.346.832.48,1.147s.206.494.29.662v0l0,0a.446.446,0,0,1,0,.385c-.2.4-.089.215-.291.448-.31.357-.312.73-.48.9a1.526,1.526,0,0,1-.141.626c-.165.439.033.655.3,1.1A21.363,21.363,0,0,0,19.2,26.882a13.015,13.015,0,0,0,2.649,1.948c.847.446,1.948.856,2.1.931.365.182.55.057,1.015,0h.127a17.22,17.22,0,0,0,1.836-1.823c.021.007.014,0,.175.06v0h0c.074.026.994.439,1.816.83s1.655.8,1.925.931c.391.194.574.321.622.321a2.2,2.2,0,0,1-.005.312,6.079,6.079,0,0,1-.341,1.48,3.593,3.593,0,0,1-1.281,1.267,5.9,5.9,0,0,1-1.757.754,6.83,6.83,0,0,1-3.119-.185,32.209,32.209,0,0,1-3.117-1.137,20.351,20.351,0,0,1-6.495-4.737,27.471,27.471,0,0,1-1.9-2.225c-.458-.595-.657-.9-.823-1.121l0,0c-.295-.391-2.1-2.9-2.1-5.168a5.019,5.019,0,0,1,1.715-3.985A1.129,1.129,0,0,1,13.041,14.944Z"
+          transform="translate(19 15.532)"
+          fill="none"
+          stroke="var(--foreground)"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        />
+      </svg>
+    );
+  }
+  
+
 export function GithubLogo() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="45.871" viewBox="0 0 46.427 45.871">
