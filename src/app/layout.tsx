@@ -46,6 +46,11 @@ export default function RootLayout({
                     gtag('config', 'AW-11293577838');
                 `}
             </Script>
+            <Script id="google-ads-pageview" strategy="afterInteractive">
+                {`
+                  gtag('event', 'conversion', {'send_to': 'AW-11293577838/kgY1CMC_4c4YEO6kmYkq'});
+                `}
+            </Script>
             
        <meta name="color-scheme" content="light"/>
       </head>
@@ -53,5 +58,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
