@@ -1,7 +1,7 @@
 'use client'
 import ThemeBtn from './components/theme-btn.tsx'
 import Loader from './components/loader.tsx'
-import { DevxioLogo, FbLogo, TwitterLogo, LinkedinLogo, GmailLogo, WhatsappLogo, GithubLogo, Badge, Signature } from './svgs.tsx'
+import { DevxioLogo, FbLogo,LinkedinLogo, GmailLogo, WhatsappLogo } from './svgs.tsx'
 import { useEffect, useState } from 'react';
 import Image from 'next/image'
 
@@ -65,7 +65,7 @@ export default function Home() {
         <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 md:mt-9 w-full max-w-[1000px] mx-auto'>
           <div className='mk-shadow1 rounded-xl p-4 md:px-6 md:py-4  sm:flex'>
             <div className='rounded-full p-3 flex items-center justify-center'>
-              <Image className='rounded-full border-[3px] border-solid border-[var(--accent1)] sm:w-[900px]' src="/assets/asadullah.webp" alt="My Image" width={300} height={300} />
+              <Image className='rounded-full border-[3px] border-solid border-[var(--accent1)] sm:w-[900px]' src="/assets/asadullah.webp" alt="Muhammad Asadullah, Software Developer and Digital Marketing Expert." width={300} height={300} />
             </div>
             <div>
               <div className='mt-5 mb-2 '>
@@ -74,7 +74,7 @@ export default function Home() {
                 </h1>
               </div>
               <p className='mk-p'>
-                Hi there!
+                Greetings! <br/>
                 I am accomplished digital marketing professional with certifications from Meta, Google, and HubSpot,
                 coupled with over two years of hands-on experience, I offer strategic leadership in driving your business&#39;s digital success.
                 Contact now to discuss your project.
@@ -95,17 +95,17 @@ export default function Home() {
           <div className='mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 '>
             <div className='mb-6 mt-4'>
               <a href='https://www.credly.com/badges/9b68f292-de7c-4379-ad42-8f13f95a4c55/public_url' className='flex'>
-                  <div className='flex items-center'>
-                      <Image className='' src="/assets/metaassociate.png" alt="My Image" width={100} height={100} />
+                  <div className='flex items-center '>
+                      <Image className='w-[100px]' src="/assets/metaassociate.png" alt="Meta Certified Digital Marketing Associate Badge" width={200} height={200} />
                   </div>
                   <div className='ml-2'>
                     <h4 className='text-[16px] font-semibold leading-tight mb-1'>
                       Meta Certified Digital Marketing Associate
                     </h4>
                     <div>
-                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="" width={15} height={15} />
                       <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
-                        Verified by Credly
+                        Click to verify
                       </h4>
                       <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
                       Provider: Meta<br/>
@@ -118,17 +118,17 @@ export default function Home() {
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
               <a href='https://www.credly.com/badges/0f63e9cd-ba08-45b3-a509-1a539d076c5c/public_url' className='flex'>
-                  <div className='flex items-center'>
-                      <Image className='' src="/assets/googlebadge.png" alt="My Image" width={100} height={100} />
+                  <div className='flex items-center '>
+                      <Image className='w-[100px]' src="/assets/googlebadge.png" alt="Google Digital Marketing & E-commerce certificate Badge" width={200} height={200} />
                   </div>
                   <div className='ml-2'>
                     <h4 className='text-[16px] font-semibold leading-tight mb-1'>
-                      Google Digital Marketing and E-commerce professional
+                      Google Digital Marketing & E-commerce certificate
                     </h4>
                     <div>
-                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="" width={15} height={15} />
                       <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
-                        Verified by Credly
+                        Click to verify
                       </h4>
                       <h4 className='text-[13px] font-light text-[var(foreground)] mt-1'>
                       Provider: coursera<br/>
@@ -141,15 +141,15 @@ export default function Home() {
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
               <a href='https://coursera.org/share/0ec89c0fec0ca52fc98241b1105125d4' className='flex'>
-                  <div className='flex items-center'>
-                      <Image className='' src="/assets/metaprofessional.png" alt="My Image" width={100} height={100} />
+                  <div className='flex items-center '>
+                      <Image className='w-[100px]' src="/assets/metaprofessional.png" alt="Meta Social Media Marketing Professional Badge" width={200} height={200} />
                   </div>
                   <div className='ml-2'>
                     <h4 className='text-[16px] font-semibold leading-tight mb-1'>
                       Meta Social Media Marketing Professional
                     </h4>
                     <div>
-                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="" width={15} height={15} />
                       <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
                         Click to verify
                       </h4>
@@ -164,15 +164,15 @@ export default function Home() {
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
               <a href='https://app.hubspot.com/academy/achievements/mftzx71n/en/1/muhammad-asadullah/hubspot-marketing-software' className='flex'>
-                  <div className='flex items-center'>
-                      <Image className='' src="/assets/hubspotbadge.webp" alt="My Image" width={100} height={100} />
+                  <div className='flex items-center '>
+                      <Image className='w-[100px]' src="/assets/hubspotbadge.webp" alt="Badge" width={200} height={200} />
                   </div>
                   <div className='ml-2'>
                     <h4 className='text-[16px] font-semibold leading-tight mb-1'>
                       Hubspot Marketing Software Certified
                     </h4>
                     <div>
-                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="My Image" width={15} height={15} />
+                      <Image className='inline mb-[2px] mr-[2px] ' src="/assets/check-verified-02.png" alt="" width={15} height={15} />
                       <h4 className='text-[13px] font-light inline text-[var(--accent5)]'>
                         Click to verify
                       </h4>
@@ -196,7 +196,7 @@ export default function Home() {
                   <h5 className='text-[12px] font-normal inline'>
                     {skill}
                   </h5>
-                  <Image className='inline dark:invert' src="/assets/badge1.png" alt="My Image" width={15} height={15} />
+                  <Image className='inline dark:invert' src="/assets/badge1.webp" alt="" width={15} height={15} />
                 </div>
               ))}
             </div>

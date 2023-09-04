@@ -4,7 +4,7 @@ import Script from 'next/script';
 
 export const metadata = {
     title: "Muhammad Asadullah - Digital Marketing Expert",
-    description: "Muhammad Asadullah is a talented Full Stack Developer specializing in design, development, and marketing. With extensive experience in web development and design, Asadullah has successfully completed projects such as the Focus Academy website and the redevelopment of the Bika Construction website. Offering integrated web application and information system development services, Asadullah also excels in digital marketing strategies including email marketing, SEO, and social media marketing. If you're in need of a skilled professional who can handle all aspects of your project, Muhammad Asadullah is here to help.",
+    description: "Muhammad Asadullah is Digital Marketing Expert & Google and Meta Ads Specialist. Hire and boost Your Business with Proven Social Media Strategies.",
   }
   
 
