@@ -53,6 +53,10 @@ export default function RootLayout({
             </Script>
             
        <meta name="color-scheme" content="light"/>
+       <link rel="icon" type="image/x-icon" href="favicon16.ico" sizes='16x16'/>
+       <link rel="icon" type="image/x-icon" href="favicon32.ico" sizes='32x32'/>
+       <link rel="icon" type="image/x-icon" href="favicon.ico" sizes='48x48'/>
+       <link rel="icon" type="image/x-icon" href="favicon1.ico" sizes='96x96'/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
