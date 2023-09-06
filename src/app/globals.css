@@ -229,8 +229,8 @@ body{
 /* marketing page styles */
 @layer components{
   .mk-heading{
-    @apply text-foreground leading-none font-bold;
-    text-shadow: 4px 4px 4px var(--accent2);
+    @apply text-foreground leading-none font-black;
+    text-shadow: 2px -2px 2px var(--accent2);
   }
   .mk-shadow1{
     -webkit-box-shadow: 0px 0px 4px .1px var(--accent3);
