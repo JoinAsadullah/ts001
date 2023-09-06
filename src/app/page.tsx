@@ -1,6 +1,6 @@
 'use client'
 import ThemeBtn from './components/theme-btn.tsx'
-import Loader from './components/loader.tsx'
+//import Loader from './components/loader.tsx'
 import { DevxioLogo, FbLogo,LinkedinLogo, GmailLogo, WhatsappLogo } from './svgs.tsx'
 import { useEffect, useState } from 'react';
 import Image from 'next/image'
@@ -8,28 +8,28 @@ import Image from 'next/image'
 
 
 export default function Home() {
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState<boolean>(false);
   const [scrollAtTop, setScrollAtTop] = useState<boolean>(true);
   
-  useEffect(() => {
-    const handleLoad = () => {
-      setLoading(false);
-      console.log('loaded');
-    };
+  // useEffect(() => {
+  //   const handleLoad = () => {
+  //     setLoading(false);
+  //     console.log('loaded');
+  //   };
   
-    if (document.readyState === 'complete') {
-      // If the document is already loaded, trigger handleLoad immediately
-      handleLoad();
-    } else {
-      // Listen for the "load" event
-      window.addEventListener('load', handleLoad);
-    }
+  //   if (document.readyState === 'complete') {
+  //     // If the document is already loaded, trigger handleLoad immediately
+  //     handleLoad();
+  //   } else {
+  //     // Listen for the "load" event
+  //     window.addEventListener('load', handleLoad);
+  //   }
   
-    return () => {
-      // Cleanup: Remove the event listener
-      window.removeEventListener('load', handleLoad);
-    };
-  }, []);
+  //   return () => {
+  //     // Cleanup: Remove the event listener
+  //     window.removeEventListener('load', handleLoad);
+  //   };
+  // }, []);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -48,7 +48,6 @@ export default function Home() {
 
   return (
     <>
-    {loading==true ? <Loader/>: ""}
     <main className={`text-foreground `}>
       <div className={`min-w-[320px] mx-[auto]`}>
         <div  className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
