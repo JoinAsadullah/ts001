@@ -1,8 +1,7 @@
-'use client'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Script from 'next/script';
-import { ThemeProvider } from "next-themes";
+import { Providers } from "./Providers.tsx";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,8 +18,7 @@ export default function RootLayout({
 }) {
   return (
 
-    <html lang="en" className='dark'>
-      <link rel="preload" as="image" href="/assets/loader.svg" />
+    <html lang="en" className='' suppressHydrationWarning>
       <head>
         <Script
           strategy="afterInteractive"
@@ -61,7 +59,7 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="favicon.ico" sizes='48x48' />
         <link rel="icon" type="image/x-icon" href="favicon1.ico" sizes='96x96' />
       </head>
-      <body className={inter.className}><ThemeProvider attribute="class">{children}</ThemeProvider></body>
+      <body className={inter.className}><Providers>{children}</Providers></body>
     </html>
   )
 }
