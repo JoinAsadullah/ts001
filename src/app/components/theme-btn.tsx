@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 export default function ThemeBtn() {
   
   const { systemTheme, theme, setTheme } = useTheme();
-  const [fetchedTheme, setFetchedTheme] = useState(null);
+  const [fetchedTheme, setFetchedTheme] = useState<string | undefined>();
 
   useEffect(() => {
     setFetchedTheme(theme);
