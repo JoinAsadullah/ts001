@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image'
 
 
-
 export default function Home() {
   const [loading, setLoading] = useState<boolean>(false);
   const [scrollAtTop, setScrollAtTop] = useState<boolean>(true);
