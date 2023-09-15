@@ -81,7 +81,7 @@ export default function Home() {
                 <a className='pr-1' href='https://web.facebook.com/joinasadullah/' target='_blank'><FbLogo/></a>
                 <a className='px-1' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><LinkedinLogo/></a>
                 <a className='px-1' href='mailto:asadullah@devxio.com' target='_blank'><GmailLogo/></a>
-                <a className='px-1' href='http://wa.me/923111678546' target='_blank'><WhatsappLogo/></a>
+                <a className='px-1' href='http://wa.me/923121963230' target='_blank'><WhatsappLogo/></a> 
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
           </h3>
           <div className='mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 '>
             <div className='mb-6 mt-4'>
-              <a href='https://www.credly.com/badges/9b68f292-de7c-4379-ad42-8f13f95a4c55/public_url' className='flex'>
+              <a href='https://www.credly.com/badges/9b68f292-de7c-4379-ad42-8f13f95a4c55/public_url' target='_blank' className='flex'>
                   <div className='flex items-center '>
                       <Image className='w-[100px]' src="/assets/metaassociate.png" alt="Meta Certified Digital Marketing Associate Badge" width={200} height={200} />
                   </div>
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
-              <a href='https://www.credly.com/badges/0f63e9cd-ba08-45b3-a509-1a539d076c5c/public_url' className='flex'>
+              <a href='https://www.credly.com/badges/0f63e9cd-ba08-45b3-a509-1a539d076c5c/public_url' target='_blank' className='flex'>
                   <div className='flex items-center '>
                       <Image className='w-[100px]' src="/assets/googlebadge.png" alt="Google Digital Marketing & E-commerce certificate Badge" width={200} height={200} />
                   </div>
@@ -138,7 +138,7 @@ export default function Home() {
             </div>  
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
-              <a href='https://coursera.org/share/0ec89c0fec0ca52fc98241b1105125d4' className='flex'>
+              <a href='https://coursera.org/verify/W36BN27HZVAC' target='_blank' className='flex'>
                   <div className='flex items-center '>
                       <Image className='w-[100px]' src="/assets/metaprofessional.png" alt="Meta Social Media Marketing Professional Badge" width={200} height={200} />
                   </div>
@@ -161,7 +161,7 @@ export default function Home() {
             </div>  
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
-              <a href='https://app.hubspot.com/academy/achievements/mftzx71n/en/1/muhammad-asadullah/hubspot-marketing-software' className='flex'>
+              <a href='https://app.hubspot.com/academy/achievements/mftzx71n/en/1/muhammad-asadullah/hubspot-marketing-software' target='_blank' className='flex'>
                   <div className='flex items-center '>
                       <Image className='w-[100px]' src="/assets/hubspotbadge.webp" alt="Badge" width={200} height={200} />
                   </div>
