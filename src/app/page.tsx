@@ -1,6 +1,7 @@
 'use client'
 import ThemeBtn from './components/theme-btn.tsx'
 //import Loader from './components/loader.tsx'
+import CopyButton from './components/copyButton.tsx'
 import { DevxioLogo, FbLogo,LinkedinLogo, GmailLogo, WhatsappLogo } from './svgs.tsx'
 import { useEffect, useState } from 'react';
 import Image from 'next/image'
@@ -138,7 +139,7 @@ export default function Home() {
             </div>  
             <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
-              <a href='https://coursera.org/verify/W36BN27HZVAC' target='_blank' className='flex'>
+              <a href='https://www.credly.com/badges/de8392fe-4200-404c-acec-fb9ca19b5c1b/public_url' target='_blank' className='flex'>
                   <div className='flex items-center '>
                       <Image className='w-[100px]' src="/assets/metaprofessional.png" alt="Meta Social Media Marketing Professional Badge" width={200} height={200} />
                   </div>
@@ -188,7 +189,7 @@ export default function Home() {
           <h3 className='font-semibold text-center text-[18px] mb-4'>
             Skills
           </h3>
-            <div className='mb-10 flex flex-wrap'>
+            <div className=' flex flex-wrap'>
               {skills.map((skill, index) => (
                 <div key={index} className='px-2 pb-1 pt-[1px] mr-1 inline border-solid border-accent2 border-[2px] rounded-full my-1'>
                   <h5 className='text-[12px] font-normal inline'>
@@ -197,6 +198,17 @@ export default function Home() {
                   <Image className='inline dark:invert' src="/assets/badge1.webp" alt="" width={15} height={15} />
                 </div>
               ))}
+            </div>
+        </div>
+        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 w-full max-w-[1000px] mx-auto'>
+          <h3 className='font-semibold text-center text-[18px] mb-4'>
+            Contact
+          </h3>
+            <div className='mb-10'>
+              <p className='mb-3'>Email: <a className='hover:underline text-accent6' href='mailto:asadullah@devxio.com' target='_blank'>asadullah@devxio.com</a><CopyButton textToCopy="asadullah@devxio.com"/></p>
+              <p className='mb-3'>Whatsapp: <a className='hover:underline text-accent6' href='http://wa.me/923121963230' target='_blank'>+923121963230</a><CopyButton textToCopy="+923121963230"/></p>
+              <p className='mb-3'>Linkedin: <a className='hover:underline text-accent6' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'>https://www.linkedin.com/in/joinasadullah/</a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/></p>
+              <p className='mb-3'>Facebook: <a className='hover:underline text-accent6' href='https://web.facebook.com/joinasadullah/' target='_blank'>https://web.facebook.com/joinasadullah/</a><CopyButton textToCopy="https://web.facebook.com/joinasadullah/"/></p>
             </div>
         </div>
       </div>
