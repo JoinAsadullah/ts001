@@ -58,13 +58,13 @@ export default function Home() {
         </div>
         <div className='px-5 xsm:px-6 sm:px-7 md:px-9 pt-7 xsm:pt-8 sm:pt-9 w-full max-w-[1000px] mx-auto'>
           <h1 className='mk-heading text-[30px] xsm:text-[36px] sm:text-[40px] md:text-[48px]'>
-            Unlock Your Digital Potential with <br/><span className='text-[#1E8E3E]'>Digital Marketing Expert</span>
+            Unlock Your Digital Potential with <br/><span className='text-[#1E8E3E] dark:text-[#4ac56d]'>Digital Marketing Expert</span>
           </h1>
         </div>
         <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 md:mt-9 w-full max-w-[1000px] mx-auto'>
           <div className='mk-shadow1 rounded-xl p-4 md:px-6 md:py-4  sm:flex'>
             <div className='rounded-full p-3 flex items-center justify-center'>
-              <Image className='rounded-full border-[3px] border-solid border-[var(--accent1)] sm:w-[900px]' src="/assets/asadullah.webp" alt="Muhammad Asadullah, Software Developer and Digital Marketing Expert." width={300} height={300} />
+              <img className='rounded-full border-[3px] border-solid border-[var(--accent1)] sm:w-[900px]' src="/assets/asadullah.webp" alt="Display Picture: Muhammad Asadullah, Software Developer and Digital Marketing Expert."/>
             </div>
             <div>
               <div className='mt-5 mb-2 '>
@@ -230,19 +230,19 @@ export default function Home() {
           </h3>
             <div className='mb-10'>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent7'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
+                <a className='' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent7'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
+                <a className='' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent7'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
+                <a className='' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline text-accent7'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
+                <a className='' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=''>Upwork<br/><span className='hover:underline text-accent7'></span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
+                <a className='' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=''>Upwork<br/></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
               </div>
             </div>
         </div>
