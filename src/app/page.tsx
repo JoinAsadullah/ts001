@@ -79,7 +79,7 @@ export default function Home() {
                 Contact now to discuss your project.
               </p>
               <div className='mt-5 mb-2 '>
-                <a className='px-1' href='http://wa.me/923121963230' target='_blank'><WhatsappLogo/></a> 
+                <a className='px-1' href='http://wa.me/923301453642' target='_blank'><WhatsappLogo/></a> 
                 <a className='px-1' href='mailto:asadullah@devxio.com' target='_blank'><GmailLogo/></a>
                 <a className='pr-1' href='https://web.facebook.com/joinasadullah/' target='_blank'><FbLogo/></a>
                 <a className='px-1' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><LinkedinLogo/></a>
@@ -233,7 +233,7 @@ export default function Home() {
                 <a className='' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent7'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='http://wa.me/923121963230' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent7'>+92 312 1963230</span></p></a><CopyButton textToCopy="http://wa.me/923121963230"/>
+                <a className='' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent7'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
                 <a className='' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent7'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
