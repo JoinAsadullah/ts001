@@ -207,8 +207,8 @@ export default function Home() {
             <div className='mb-10'>
               <p className='mb-3'>Email: <a className='hover:underline text-accent6' href='mailto:asadullah@devxio.com' target='_blank'>asadullah@devxio.com</a><CopyButton textToCopy="asadullah@devxio.com"/></p>
               <p className='mb-3'>Whatsapp: <a className='hover:underline text-accent6' href='http://wa.me/923121963230' target='_blank'>+923121963230</a><CopyButton textToCopy="+923121963230"/></p>
-              <p className='mb-3'>Linkedin: <a className='hover:underline text-accent6' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'>https://www.linkedin.com/in/joinasadullah/</a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/></p>
-              <p className='mb-3'>Facebook: <a className='hover:underline text-accent6' href='https://web.facebook.com/joinasadullah/' target='_blank'>https://web.facebook.com/joinasadullah/</a><CopyButton textToCopy="https://web.facebook.com/joinasadullah/"/></p>
+              <p className='mb-3'>Linkedin: <a className='hover:underline text-accent6' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'>linkedin.com/in/joinasadullah</a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/></p>
+              <p className='mb-3'>Facebook: <a className='hover:underline text-accent6' href='https://www.facebook.com/joinasadullah/' target='_blank'>facebook.com/joinasadullah</a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/></p>
             </div>
         </div>
       </div>
