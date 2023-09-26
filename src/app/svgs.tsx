@@ -66,6 +66,14 @@ export function FbLogo() {
       </svg>
     );
   }
+  export function UpworkLogo() {
+    return (
+      <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="45" viewBox="0 0 80 80">
+          <circle id="Ellipse_19" data-name="Ellipse 19" cx="40" cy="40" r="40" fill="var(--accent1)"/>
+          <path id="Path_80" data-name="Path 80" d="M32.694,17.272a8.514,8.514,0,0,1-5.339-2.13l.4-1.863.017-.069c.355-1.983,1.475-5.313,4.925-5.313a4.687,4.687,0,1,1,0,9.374Zm0-14.125c-4.406,0-7.822,2.862-9.211,7.572A38.792,38.792,0,0,1,18.818.5H14.074V12.84a4.415,4.415,0,1,1-8.83,0V.5H.5V12.84a9.159,9.159,0,1,0,18.318,0v-2.07a29.569,29.569,0,0,0,3.422,5.588l-2.905,13.66h4.854l2.1-9.909a11.7,11.7,0,0,0,6.4,1.923,9.443,9.443,0,0,0,0-18.887Z" transform="translate(19.686 27.231)" fill="none" stroke="var(--foreground)" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/>
+      </svg>
+    );
+  }
   
   export function TwitterLogo() {
     return (
