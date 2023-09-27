@@ -138,7 +138,8 @@ export default function Home() {
                     </div>
                   </div>
               </a>
-            </div>  
+            </div>
+            <div className='h-[1px] border-solid border-[var(--accent2)] border-[1px]' />
             <div className='mt-6 mb-6'>
               <a href='https://www.credly.com/badges/68ecd291-1fca-4846-9ed2-3a5e51e71af4/public_url' target='_blank' className='flex'>
                   <div className='flex items-center '>
@@ -230,19 +231,19 @@ export default function Home() {
           </h3>
             <div className='mb-10'>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
+                <a className='truncate basis-4/5' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent4 px-1 rounded-md'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
+                <a className='truncate basis-4/5' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent4 px-1 rounded-md'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
+                <a className='truncate basis-4/5' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent4 px-1 rounded-md'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline bg-accent2 px-1 rounded-md'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
+                <a className='truncate basis-4/5' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline text-accent4 px-1 rounded-md'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
-                <a className='' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=''>Upwork<br/></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
+                <a className='truncate basis-4/5' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=' '>Upwork<br/><span className='hover:underline text-accent4 px-1 rounded-md'>upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304</span></p></a><CopyButton textToCopy="https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304"/>
               </div>
             </div>
         </div>
