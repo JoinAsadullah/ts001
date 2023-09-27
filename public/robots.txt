@@ -10,3 +10,4 @@ Disallow: /_next/image?url=%2Fassets%2Fgooglebadge.png&w=640&q=75&dpl=dpl_sB75YC
 Disallow: /_next/image?url=%2Fassets%2Fgooglebadge.png&w=256&q=75&dpl=dpl_sB75YCs3ctzGtSBf8qsW1ohuSLYx
 Disallow: /_next/image?url=%2Fassets%2Fmetaassociate.png&w=640&q=75&dpl=dpl_sB75YCs3ctzGtSBf8qsW1ohuSLYx
 Disallow: /_next/image?url=%2Fassets%2Fmetaassociate.png&w=256&q=75&dpl=dpl_sB75YCs3ctzGtSBf8qsW1ohuSLYx
+Disallow: /asadullah
