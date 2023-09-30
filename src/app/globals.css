@@ -232,9 +232,9 @@ body{
     @apply text-foreground leading-none font-black;
   }
   .mk-shadow1{
-    -webkit-box-shadow: 0px 0px 2px .1px var(--accent4);
-    -moz-box-shadow: 0px 0px 2px .1px var(--accent4);
-    box-shadow: 0px 0px 2px .1px var(--accent4);
+    -webkit-box-shadow: 0px 0px 2px .1px var(--accent7);
+    -moz-box-shadow: 0px 0px 2px .1px var(--accent7);
+    box-shadow: 0px 0px 2px .1px var(--accent7);
   }
   .mk-heading2{
     @apply text-foreground leading-none font-bold;

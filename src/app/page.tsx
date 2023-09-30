@@ -44,7 +44,7 @@ export default function Home() {
     };
   }, []);
 
-  const skills = ['Digital Marketing', 'Social Media Marketing', 'Search Engine Marketing', 'Content Marketing', 'Email Marketing', 'Social Media Management', 'Google Analytics', 'Google Ads','Display ads', 'Facebook Ads', 'Instagram Ads', 'LinkedIn Ads', 'Twitter Ads', 'Pinterest Ads', 'TikTok Ads', 'Snapchat Ads', 'YouTube Ads', 'Google My Business', 'Digital Marketing Stratey', 'Growth Consultancy', 'Ads Strategy']
+  const skills = ['Digital Marketing', 'Social Media Marketing', 'Search Engine Marketing', 'Content Marketing', 'Email Marketing', 'Social Media Management', 'Google Analytics', 'Google Ads','Display ads', 'Facebook Ads', 'Instagram Ads', 'LinkedIn Ads', 'Twitter Ads', 'Pinterest Ads', 'TikTok Ads', 'Snapchat Ads', 'YouTube Ads', 'Google My Business', 'Digital Marketing Strategy', 'Growth Consultancy', 'Ads Strategy']
 
   return (
     <>
@@ -57,8 +57,8 @@ export default function Home() {
           </div>
         </div>
         <div className='px-5 xsm:px-6 sm:px-7 md:px-9 pt-7 xsm:pt-8 sm:pt-9 w-full max-w-[1000px] mx-auto'>
-          <h1 className='mk-heading text-[30px] xsm:text-[36px] sm:text-[40px] md:text-[48px]'>
-            Unlock Your Digital Potential with <br/><span className='text-[#1E8E3E] dark:text-[#4ac56d]'>Digital Marketing Expert</span>
+          <h1 className='mk-heading text-[30px] xsm:text-[36px] sm:text-[40px] md:text-[48px] text-center text-accent7'>
+            Unlock your Digital Potential with <br/><span className=''>Digital Marketing Expert</span>
           </h1>
         </div>
         <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 md:mt-9 w-full max-w-[1000px] mx-auto'>
@@ -93,7 +93,7 @@ export default function Home() {
           <h3 className='font-semibold text-center text-[18px] mb-4'>
             Certifications
           </h3>
-          <div className='mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 '>
+          <div className='mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 '>
             <div className='mb-6 mt-4'>
               <a href='https://www.credly.com/badges/9b68f292-de7c-4379-ad42-8f13f95a4c55/public_url' target='_blank' className='flex'>
                   <div className='flex items-center '>
@@ -214,7 +214,7 @@ export default function Home() {
           <h3 className='font-semibold text-center text-[18px] mb-4'>
             Skills
           </h3>
-            <div className=' flex flex-wrap'>
+            <div className=' flex flex-wrap mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
               {skills.map((skill, index) => (
                 <ul key={index} className=' pb-1 px-2 mr-1 inline border-solid border-accent2 border-[2px] rounded-full my-1'>
                   <li className='text-[12px]  font-normal inline'>
@@ -230,19 +230,19 @@ export default function Home() {
             Contact
           </h3>
             <div className='mb-10'>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
+              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent4 px-1 rounded-md'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
               </div>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
+              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent4 px-1 rounded-md'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
               </div>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
+              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent4 px-1 rounded-md'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
               </div>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
+              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline text-accent4 px-1 rounded-md'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
               </div>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-8 md:py-5 mb-3'>
+              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=' '>Upwork<br/><span className='hover:underline text-accent4 px-1 rounded-md'>upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304</span></p></a><CopyButton textToCopy="https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304"/>
               </div>
             </div>
