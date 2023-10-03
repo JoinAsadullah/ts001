@@ -84,7 +84,6 @@ export default function Home() {
                 <a className='pr-1' href='https://web.facebook.com/joinasadullah/' target='_blank'><FbLogo/></a>
                 <a className='px-1' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><LinkedinLogo/></a>
                 <a className='px-1' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><UpworkLogo/></a>
-
               </div>
             </div>
           </div>
