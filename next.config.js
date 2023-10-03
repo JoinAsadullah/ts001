@@ -11,8 +11,9 @@ module.exports = {
           },
         {
             source: '/sendemail',
-            destination: 'mailto://asadullah@devxio.com',
+            destination: 'mailto:asadullah@devxio.com',
             permanent: false, // 301 Permanent Redirect
+            basePath: false,
           },
       ];
     },
