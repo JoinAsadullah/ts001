@@ -9,12 +9,6 @@ module.exports = {
             destination: '/AsadullahCV.pdf',
             permanent: true, // 301 Permanent Redirect
           },
-        {
-            source: '/sendemail',
-            destination: 'mailto:asadullah@devxio.com',
-            permanent: false, // 301 Permanent Redirect
-            basePath: false,
-          },
       ];
     },
   };
