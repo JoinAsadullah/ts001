@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <>
     <main className={`text-foreground `}>
-      <div className={`min-w-[320px] mx-[auto]`}>
+      <div id="learnmore" className={`min-w-[320px] mx-[auto]`}>
         <div  className={`mobile-wrapper max-w-full h-8 flex justify-between sticky z-20 top-0 ${scrollAtTop ? '' : 'glass border-b-[1px]'} border-[#00000017] dark:border-[#ffffff17] `}>
           <div className='w-full flex justify-between items-center '>
             <DevxioLogo/>
@@ -224,7 +224,7 @@ export default function Home() {
               ))}
             </div>
         </div>
-        <div className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 w-full max-w-[1000px] mx-auto'>
+        <div id="contact" className='px-5 xsm:px-6 sm:px-7 md:px-9 mt-8 w-full max-w-[1000px] mx-auto'>
           <h3 className='font-semibold text-center text-[18px] mb-4'>
             Contact
           </h3>
