@@ -215,7 +215,7 @@ export default function Home() {
           </h3>
             <div className=' flex flex-wrap mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
               {skills.map((skill, index) => (
-                <ul key={index} className=' pb-1 px-2 mr-1 inline border-solid border-accent2 border-[2px] rounded-full my-1'>
+                <ul key={index} className=' pb-1 mb-2 px-2 mr-1 inline border-solid border-accent2 border-[2px] rounded-full my-1 grow text-center'>
                   <li className='text-[12px]  font-normal inline'>
                     {skill}
                   </li>
