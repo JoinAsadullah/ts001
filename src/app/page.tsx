@@ -80,10 +80,9 @@ export default function Home() {
               </p>
               <div className='mt-5 mb-2 '>
                 <a className='px-1' href='http://wa.me/923301453642' target='_blank'><WhatsappLogo/></a> 
-                <a className='px-1' href='mailto:asadullah@devxio.com' target='_blank'><GmailLogo/></a>
-                <a className='pr-1' href='https://web.facebook.com/joinasadullah/' target='_blank'><FbLogo/></a>
-                <a className='px-1' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><LinkedinLogo/></a>
-                <a className='px-1' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><UpworkLogo/></a>
+                <a className='px-1' href='mailto:connectasadullah@gmail.com' target='_blank'><GmailLogo/></a>
+                <a className='px-1' href='https://www.linkedin.com/in/connectasadullah/' target='_blank'><LinkedinLogo/></a>
+                <a className='px-1' href='/cv' target='_blank'><button className=' text-xl black w-[45px] h-[45px] bg-accent1 rounded-full outline-title font-bold' >CV</button></a>
               </div>
             </div>
           </div>
@@ -230,19 +229,16 @@ export default function Home() {
           </h3>
             <div className='mb-10'>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
-                <a className='truncate basis-4/5' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent4 px-1 rounded-md'>asadullah@devxio.com</span></p></a><CopyButton textToCopy="asadullah@devxio.com"/>
+                <a className='truncate basis-4/5' href='mailto:asadullah@devxio.com' target='_blank'><p className=''>Email<br/><span className='hover:underline text-accent4 px-1 rounded-md'>connectasadullah@gmail.com</span></p></a><CopyButton textToCopy="connectasadullah@gmail.com"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='http://wa.me/923301453642' target='_blank'><p className=''>WhatsApp<br/><span className='hover:underline text-accent4 px-1 rounded-md'>+92 330 1453642</span></p></a><CopyButton textToCopy="http://wa.me/923301453642"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
-                <a className='truncate basis-4/5' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent4 px-1 rounded-md'>linkedin.com/in/joinasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/joinasadullah/"/>
+                <a className='truncate basis-4/5' href='https://www.linkedin.com/in/joinasadullah/' target='_blank'><p className=''>LinkedIn<br/><span className='hover:underline text-accent4 px-1 rounded-md'>linkedin.com/in/connectasadullah</span></p></a><CopyButton textToCopy="https://www.linkedin.com/in/connectasadullah/"/>
               </div>
               <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
                 <a className='truncate basis-4/5' href='https://www.facebook.com/joinasadullah/' target='_blank'><p className=''>Facebook<br/><span className='hover:underline text-accent4 px-1 rounded-md'>facebook.com/joinasadullah</span></p></a><CopyButton textToCopy="https://www.facebook.com/joinasadullah/"/>
-              </div>
-              <div className='flex justify-between mk-shadow1 rounded-xl p-4 md:px-6 md:py-5 mb-3'>
-                <a className='truncate basis-4/5' href='https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304' target='_blank'><p className=' '>Upwork<br/><span className='hover:underline text-accent4 px-1 rounded-md'>upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304</span></p></a><CopyButton textToCopy="https://www.upwork.com/freelancers/~012c5ae6f4106f7c7d?s=1110580753207906304"/>
               </div>
             </div>
         </div>
